@@ -106,7 +106,7 @@
             "Key": "20dc1b00-95a6-4874-9c2f-7ee546266943",
             "Value": {
                 "id": "6df31341-2816-442d-82b0-8d198e409094",
-                "resourcePath": "objects\\o_rand_sign\\o_rand_sign.yy",
+                "resourcePath": "objects\/o_rand_sign\/o_rand_sign.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -130,7 +130,7 @@
             "Key": "2dcb0ade-cf57-4281-b7ec-915aaa7586a0",
             "Value": {
                 "id": "03229837-fc47-4603-a0a4-f37d7a6f10a4",
-                "resourcePath": "objects\\noteScore\\noteScore.yy",
+                "resourcePath": "objects\/noteScore\/noteScore.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -290,7 +290,7 @@
             "Key": "706f0dbe-98d8-4de6-82be-d060a350391d",
             "Value": {
                 "id": "575e71a7-1249-44be-b517-f18db62f1632",
-                "resourcePath": "sprites\\s_rand_sign\\s_rand_sign.yy",
+                "resourcePath": "sprites\/s_rand_sign\/s_rand_sign.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -388,6 +388,14 @@
                 "id": "fd6be947-0978-403c-b37c-49a34f7dd654",
                 "resourcePath": "views\/93e169f7-7506-4750-b23b-c1e274403e1b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "98483b37-aacb-4426-a739-0c182a35e018",
+            "Value": {
+                "id": "a6d36f2b-e311-4953-a26e-4762ea5dba1e",
+                "resourcePath": "sprites\/sMusic_note\/sMusic_note.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -567,6 +575,14 @@
             }
         },
         {
+            "Key": "e4123bb9-33c8-429d-b35f-5f5cf19e0477",
+            "Value": {
+                "id": "3c5da584-9b24-472a-bf8e-36138d9c0ba8",
+                "resourcePath": "sprites\/sTopCurtains\/sTopCurtains.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
             "Value": {
                 "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
@@ -578,7 +594,7 @@
             "Key": "e6d7ff97-a202-4f2d-ac5c-1c817da2f472",
             "Value": {
                 "id": "bc5d0407-bdf9-4068-a5b5-1aa7994abf6f",
-                "resourcePath": "fonts\\scoreFont\\scoreFont.yy",
+                "resourcePath": "fonts\/scoreFont\/scoreFont.yy",
                 "resourceType": "GMFont"
             }
         },
