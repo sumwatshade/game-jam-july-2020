@@ -1,7 +1,12 @@
+/// @description set new volume + pitch
 audio_sound_pitch(main_music, play_pitch);
 
-if (global.pause and !global.gameover) {
-	audio_sound_gain(main_music, 0.2, 0);
-} else {
-	audio_sound_gain(main_music, 1, 0);
+new_volume = 1;
+if (global.mute) {
+	new_volume = 0;
 }
+else if (global.pause and !global.gameover) {
+	new_volume = 0.2;
+}
+
+audio_sound_gain(main_music, new_volume, 0);
