@@ -9,3 +9,5 @@ healthbar_height = 20;
 
 healthbar_x = window_get_width() /2 + (healthbar_width / 2);
 healthbar_y = 10;
+
+cant_take_damage = 0;

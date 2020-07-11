@@ -1,7 +1,7 @@
 
 if (timer = 1)
 {
-	alarm[0] = 60;
+	alarm[0] = random_range(min_alarm, max_alarm);
 	timer = 0;
 }
 

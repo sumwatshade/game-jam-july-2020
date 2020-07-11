@@ -12,7 +12,7 @@ key_jump_held = keyboard_check(vk_space);									//If space is held
 /*
  * If game paused, skip step
  */
-if(global.pause) return;
+if(global.pause || global.gameover) return;
 
 
 //Horizontal Movement
@@ -87,15 +87,20 @@ vsp = vsp + grv;					//adds grv to your vsp. Contantly accelerating
 //on floor detection
 if (place_meeting(x, y+1, oWall)) on_floor = 1; else on_floor = 0;					//If on floor set 'on_floor to 1. Otherwise its 0
 
-//Jumping
-can_jump -= 1;
-if (can_jump > 0) && (key_jump)					//If floor you are on the floor and you press jump
+if (on_floor = 1) && (key_jump)
 {
 	vsp = jump_power;
-	can_jump = 0;
 }
 
-if (vsp < 0) && (!key_jump_held) vsp = max(vsp,0) //variable jump its touchy though 
+//Jumping
+//can_jump -= 1;
+//if (can_jump > 0) && (key_jump)					//If floor you are on the floor and you press jump
+//{
+//	vsp = jump_power;
+//	can_jump = 0;
+//}
+
+if (vsp < 0) && (!key_jump_held) vsp = max(vsp,jump_power*vsp_decel) //variable jump its touchy though 
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))
@@ -119,6 +124,7 @@ if (place_meeting(x,y+vsp,oWall))
 }
 y = y + vsp;
 
+if (vsp < max_vsp) vsp += grv;
 
 //Animation
 
@@ -130,7 +136,7 @@ if(on_floor != 1)
 }
 else
 {
-	can_jump = coyote_time;
+	//can_jump = coyote_time;
 	image_speed = 1;
 	if (hsp == 0)
 	{

@@ -52,6 +52,22 @@
                 "id": "3172925a-118e-4585-9bff-783a8c12c346",
                 "resourcePath": "sprites\/sbackground\/sbackground.yy",
                 "resourceType": "GMSprite"
+             }
+        },
+        {
+            "Key": "0b39e631-69de-476a-9546-7a818aaddbd4",
+            "Value": {
+                "id": "16472e2e-4782-4cab-86bf-6f0a506fba77",
+                "resourcePath": "objects\\o_bad_guy\\o_bad_guy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "0eb0597f-2bf6-467c-affa-871f8da8c6f1",
+            "Value": {
+                "id": "f342c15f-3ae3-4ebd-a721-d2495c64431f",
+                "resourcePath": "objects\\o_game_over\\o_game_over.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -155,6 +171,14 @@
             "Value": {
                 "id": "3c5e46f7-4fe5-40e0-a5d8-447efdbc07dc",
                 "resourcePath": "objects\/Note_spawner\/Note_spawner.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "4b909f18-53c5-476f-93ba-6ad054401822",
+            "Value": {
+                "id": "bc1fda26-263f-40fd-8f81-eaa301d6aa68",
+                "resourcePath": "objects\\Ranomizer\\Ranomizer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -407,6 +431,14 @@
             }
         },
         {
+            "Key": "b61ef83f-abf4-4d60-89d8-47355e17268e",
+            "Value": {
+                "id": "f44254b1-b482-406d-84c1-7643ed8f2e94",
+                "resourcePath": "objects\\Lights\\Lights.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6bbe73c-112b-43d0-8a3d-8cdf2454c840",
             "Value": {
                 "id": "7fee360e-2148-4505-86ed-d65c8cb8b337",
@@ -447,11 +479,27 @@
             }
         },
         {
+            "Key": "de3319bd-f686-45a9-9269-ccfeb04b488c",
+            "Value": {
+                "id": "102cda49-be11-484c-885c-eced3d2d01e2",
+                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
             "Value": {
                 "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
                 "resourcePath": "objects\/Drum_spawner\/Drum_spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "ec9f1bb0-8e29-42c7-8648-45f36b082088",
+            "Value": {
+                "id": "52e8b9ba-9642-4a02-81d9-40ee461ef600",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
             }
         },
         {

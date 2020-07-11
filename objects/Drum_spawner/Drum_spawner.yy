@@ -25,16 +25,6 @@
             "m_owner": "e65e7399-9fef-4e7f-92e8-78eaffa0d712"
         },
         {
-            "id": "069c7114-dd7c-4580-898c-1446e0acc5a4",
-            "modelName": "GMEvent",
-            "mvc": "1.0",
-            "IsDnD": false,
-            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 0,
-            "eventtype": 0,
-            "m_owner": "e65e7399-9fef-4e7f-92e8-78eaffa0d712"
-        },
-        {
             "id": "22b1e768-01a9-45ed-907d-d141686b086f",
             "modelName": "GMEvent",
             "mvc": "1.0",
@@ -88,6 +78,48 @@
             "resourceFilter": 1023,
             "value": "400",
             "varName": "max_alarm",
+            "varType": 0
+        },
+        {
+            "id": "7975f7f3-d98b-4dc5-a322-84d725cae623",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "timer_left",
+            "varType": 0
+        },
+        {
+            "id": "37f4b91b-0337-4010-88ae-f1f955c3504f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "timer_right",
+            "varType": 0
+        },
+        {
+            "id": "169e20f1-41b5-4a07-840c-b27ea63632d6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "600",
+            "varName": "spawn_height",
             "varType": 0
         }
     ],
