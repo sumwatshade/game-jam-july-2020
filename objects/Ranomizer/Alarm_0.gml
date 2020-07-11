@@ -1,5 +1,5 @@
 if(!(global.gameover || global.pause)) {
-	chooser = irandom_range(1, 5)
+	chooser = irandom_range(1, 3)
 
 
 
@@ -18,21 +18,6 @@ if(!(global.gameover || global.pause)) {
 	}
 
 	if (chooser = 3) 
-	{
-		message = "Pick it up!"
-		if (Music.play_pitch < 1.5) Music.play_pitch += 0.03;
-
-	}
-
-	if (chooser = 4) 
-	{
-		message = "More Notes!"
-		if (Note_spawner.alarm_min > 30) Note_spawner.alarm_min -= 10;
-		if (Note_spawner.alarm_max > 30) Note_spawner.alarm_max -= 20;
-		if (Note_spawner.max_notes < 5) Note_spawner.max_notes += 1;
-	}
-
-	if (chooser = 5) 
 	{
 		message = "Light Show"
 		if (Lights.flash_speed < 12) Lights.flash_speed += 1;
