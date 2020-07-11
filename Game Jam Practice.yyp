@@ -39,6 +39,14 @@
             }
         },
         {
+            "Key": "0b39e631-69de-476a-9546-7a818aaddbd4",
+            "Value": {
+                "id": "16472e2e-4782-4cab-86bf-6f0a506fba77",
+                "resourcePath": "objects\\o_bad_guy\\o_bad_guy.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "1016b5ad-66e6-436d-93c0-c68793837452",
             "Value": {
                 "id": "cc0fd5dd-2d27-473c-91fe-5b0050176a53",
