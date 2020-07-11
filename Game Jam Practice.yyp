@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3c92fc6c-6b63-4f35-a7f4-5046b2fe7e32",
+            "Value": {
+                "id": "4123af8f-7d48-4f98-932a-9319647c1eb9",
+                "resourcePath": "objects\\Music\\Music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3f0a41f8-0ad9-4a6e-aa7a-b2b09813ae7a",
             "Value": {
                 "id": "fbf3b77d-cca2-4bcf-9ebe-0316c3c984ec",
@@ -284,6 +292,14 @@
                 "id": "f3721d19-f1b9-43a7-ab08-44da23cade56",
                 "resourcePath": "views\/b037d07a-be52-405b-a075-6b367fe1da67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b068be9e-0020-41f8-b14e-8556dc9dc42c",
+            "Value": {
+                "id": "614d3b6d-a4fb-45f8-b2f0-8aabebe39987",
+                "resourcePath": "sounds\\main_music\\main_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
