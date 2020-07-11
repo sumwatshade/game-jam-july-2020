@@ -15,4 +15,25 @@ if (global.pause and !global.gameover) {
 	
 	// set back to default
 	draw_set_color(c_black);
+	
+	// #########################
+	// ### Draw menu options ###
+	// #########################
+	
+	// draw arrow
+	arrowGap = 50;
+	draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
+
+	// draw text
+	draw_set_font(titleFont);
+	draw_set_valign(fa_middle);
+
+	// draw options
+	var i = 0;
+
+	while i <= maxOption {
+		draw_text(_x, _y[i], txt[i]);
+		i += 1;
+	}
+	
 }
