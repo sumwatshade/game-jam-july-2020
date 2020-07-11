@@ -14,6 +14,7 @@ else if option > maxOption
 if keyboard_check_pressed(vk_space) {
 	switch option {
 		case 0:
+			audio_stop_sound(menu_music)
 			room_goto(room0)
 			break;
 		
