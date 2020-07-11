@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "91521a97-4cc8-44a0-8e09-7d19ec8eea72",
+            "Value": {
+                "id": "61e0e7e3-f050-49a8-9975-1da4c5403b1f",
+                "resourcePath": "objects\\Drum_left\\Drum_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92474248-a863-4f4f-8639-2472a577f6dd",
             "Value": {
                 "id": "f2b0d6ac-7541-4f38-b307-4f6fecc29ab0",
@@ -247,11 +255,35 @@
             }
         },
         {
+            "Key": "93cf0b1c-bc3c-4ae0-8c3f-fb55c3507a24",
+            "Value": {
+                "id": "734601a0-6118-4d10-9e8a-c11228de1322",
+                "resourcePath": "sprites\\sDrum\\sDrum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93e169f7-7506-4750-b23b-c1e274403e1b",
             "Value": {
                 "id": "fd6be947-0978-403c-b37c-49a34f7dd654",
                 "resourcePath": "views\/93e169f7-7506-4750-b23b-c1e274403e1b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99d6249a-ac94-41c6-8c0b-5af73b68877e",
+            "Value": {
+                "id": "76b44626-329b-40d6-8590-93e966fa4e44",
+                "resourcePath": "sprites\\sHealthbar_bar\\sHealthbar_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c6d9f76-462c-4a88-abe3-331044a0cb33",
+            "Value": {
+                "id": "a5c5179f-6df4-4063-873d-e398cd535cf6",
+                "resourcePath": "objects\\Drum_right\\Drum_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -292,6 +324,14 @@
                 "id": "cc42de13-374b-4480-b42d-fe5b416a1aa7",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab07bf6c-bb74-4a02-a232-402463f0d4d3",
+            "Value": {
+                "id": "d17b130a-1cba-4f12-9139-a5ea39d0b349",
+                "resourcePath": "sprites\\sHealthbar_bg\\sHealthbar_bg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -364,6 +404,14 @@
                 "id": "6318a060-25e4-4667-9696-dcf2b87cca5d",
                 "resourcePath": "sprites\/sWall\/sWall.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
+            "Value": {
+                "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
+                "resourcePath": "objects\\Drum_spawner\\Drum_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
