@@ -12,3 +12,5 @@ _y[1] = optionStart + optionPad;
 
 txt[0] = "Start";
 txt[1] = "Quit";
+
+audio_play_sound(menu_music, 1000, true);

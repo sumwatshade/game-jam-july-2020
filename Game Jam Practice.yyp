@@ -31,6 +31,14 @@
     },
     "resources": [
         {
+            "Key": "046dbf7f-e947-4ffe-9c55-0b5a3f7cae52",
+            "Value": {
+                "id": "bd44b7e5-747a-4949-b24c-d536476d5417",
+                "resourcePath": "datafiles_yy\\Menu Jazz.wav.asd.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "06818092-1e4a-4a62-827d-00800c61b985",
             "Value": {
                 "id": "8ef18465-cfc3-45a8-ae8e-94c0c2e35895",
@@ -103,6 +111,14 @@
             }
         },
         {
+            "Key": "2b05e78a-5c0d-4c26-a0c3-19b79d8fbbbd",
+            "Value": {
+                "id": "b14360fb-d870-4e94-86e1-3d5a5f08ee05",
+                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Jazz Flair Fail.als.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "2f220926-87f0-4280-b521-6ee9ac9d0487",
             "Value": {
                 "id": "cc6bf8d7-60d2-4493-8a77-27b059df9ad3",
@@ -119,11 +135,27 @@
             }
         },
         {
+            "Key": "37f2e396-13af-4034-a43e-2fb3df08c59c",
+            "Value": {
+                "id": "c5acc212-0e37-4d03-9f59-aec7c1e1c8b1",
+                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Ableton Project Info\\AProject.ico.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "3c92fc6c-6b63-4f35-a7f4-5046b2fe7e32",
             "Value": {
                 "id": "4123af8f-7d48-4f98-932a-9319647c1eb9",
                 "resourcePath": "objects\/Music\/Music.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "3c9e9a97-a014-48b6-82b8-0a6f4e96e547",
+            "Value": {
+                "id": "020f833c-ca6e-4d7e-b5d0-521c66e04550",
+                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Desktop.ini.yy",
+                "resourceType": "GMIncludedFile"
             }
         },
         {
@@ -159,11 +191,27 @@
             }
         },
         {
+            "Key": "4d9c90f7-1809-4080-af7e-10f5abdc5d1b",
+            "Value": {
+                "id": "94bd96bb-b108-4b83-9d91-4b2bce2c743c",
+                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Ableton Project Info\\Project8_1.cfg.yy",
+                "resourceType": "GMIncludedFile"
+            }
+        },
+        {
             "Key": "4d9deab5-92b1-463b-b002-b5ec99973797",
             "Value": {
                 "id": "997dfdb6-aef4-48e2-82bc-4952ed3ba215",
                 "resourcePath": "views\\4d9deab5-92b1-463b-b002-b5ec99973797.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "5578f544-417d-4b5b-aa19-e2a723e07ffe",
+            "Value": {
+                "id": "ac8e7ec7-8ef5-48c2-9eb6-523bda0d6a5e",
+                "resourcePath": "sounds\\menu_music\\menu_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -207,6 +255,14 @@
             }
         },
         {
+            "Key": "72108e53-8ff3-49dc-9585-67c01101b491",
+            "Value": {
+                "id": "d43b5547-b9d2-49de-a522-e20e3c3a6e06",
+                "resourcePath": "views\\72108e53-8ff3-49dc-9585-67c01101b491.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "73f2d205-4e30-492f-8d2d-75f35d823595",
             "Value": {
                 "id": "5cd6b85c-2b0a-43c5-92ff-059f2f39edb7",
@@ -228,6 +284,14 @@
                 "id": "a47db910-b406-4b32-965f-94c8b7a8d92e",
                 "resourcePath": "sprites\/sprite9\/sprite9.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8499d515-d37d-4654-813e-cb015adc00d1",
+            "Value": {
+                "id": "50b31621-7542-413c-b154-136fff3408af",
+                "resourcePath": "sounds\\jazz_flair_fail\\jazz_flair_fail.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -476,6 +540,14 @@
                 "id": "26d557fd-0c56-4a7a-b0e4-f25881c49a4f",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f4c8f799-6de3-471c-98e6-736d8f0dbf10",
+            "Value": {
+                "id": "de882435-bded-403d-b834-cfbb174715db",
+                "resourcePath": "views\\f4c8f799-6de3-471c-98e6-736d8f0dbf10.yy",
+                "resourceType": "GMFolder"
             }
         },
         {
