@@ -4,7 +4,8 @@ if (timer2 > 0)
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
 	draw_set_font(titleFont);
-	draw_text(room_width/2, top_buffer, message);		
+	draw_text(room_width/2, top_buffer, message);	
+	draw_set_font(scoreFont);
 }
 
 else
