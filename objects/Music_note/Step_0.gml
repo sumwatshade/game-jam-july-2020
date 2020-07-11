@@ -1,3 +1,8 @@
+/*
+ * If game paused, skip step
+ */
+if(global.pause) return;
+
 if (place_meeting (x, y, oPlayer) && !collected)
 {
 	//audio_play_sound(snd_pickup_coin, 0, 0);

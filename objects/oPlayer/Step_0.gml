@@ -9,6 +9,12 @@ key_jump = keyboard_check_pressed(vk_space);								//If space is pressed
 key_jump_held = keyboard_check(vk_space);									//If space is held
 
 
+/*
+ * If game paused, skip step
+ */
+if(global.pause) return;
+
+
 //Horizontal Movement
 var move = key_right-key_left;					//Just right returns 1, just left returns -1, both or none returns 0. In GMS positive is right and negative is left
 
@@ -89,6 +95,7 @@ if (can_jump > 0) && (key_jump)					//If floor you are on the floor and you pres
 	can_jump = 0;
 }
 
+if (vsp < 0) && (!key_jump_held) vsp = max(vsp,0) //variable jump its touchy though 
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))
