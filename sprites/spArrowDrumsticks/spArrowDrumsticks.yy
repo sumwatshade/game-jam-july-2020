@@ -101,7 +101,7 @@
     "origin": 5,
     "originLocked": true,
     "playbackSpeed": 3,
-    "playbackSpeedType": 0,
+    "playbackSpeedType": 1,
     "premultiplyAlpha": false,
     "sepmasks": false,
     "swatchColours": null,

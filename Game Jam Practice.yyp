@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "258315a2-3dd7-4123-9645-a8824fc74fdd",
+            "Value": {
+                "id": "776a8e62-c6f9-43c2-8293-b283b57869d6",
+                "resourcePath": "fonts\/titleFont\/titleFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2f220926-87f0-4280-b521-6ee9ac9d0487",
             "Value": {
                 "id": "cc6bf8d7-60d2-4493-8a77-27b059df9ad3",
@@ -98,7 +106,7 @@
             "Key": "3c92fc6c-6b63-4f35-a7f4-5046b2fe7e32",
             "Value": {
                 "id": "4123af8f-7d48-4f98-932a-9319647c1eb9",
-                "resourcePath": "objects\\Music\\Music.yy",
+                "resourcePath": "objects\/Music\/Music.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -178,7 +186,7 @@
             "Key": "7aefd0fb-3299-4ecc-b5b2-e92fb609e06d",
             "Value": {
                 "id": "f188bd8e-e8e1-4e39-b19b-b9d37cc20bf3",
-                "resourcePath": "objects\\obj_pause\\obj_pause.yy",
+                "resourcePath": "objects\/obj_pause\/obj_pause.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -196,6 +204,14 @@
                 "id": "a47db910-b406-4b32-965f-94c8b7a8d92e",
                 "resourcePath": "sprites\/sprite9\/sprite9.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "8530f202-e3f9-44db-ac04-c5c293240c7e",
+            "Value": {
+                "id": "63efe97a-a513-4654-b92a-205b3ceb01bf",
+                "resourcePath": "rooms\/title\/title.yy",
+                "resourceType": "GMRoom"
             }
         },
         {
@@ -314,7 +330,7 @@
             "Key": "b068be9e-0020-41f8-b14e-8556dc9dc42c",
             "Value": {
                 "id": "614d3b6d-a4fb-45f8-b2f0-8aabebe39987",
-                "resourcePath": "sounds\\main_music\\main_music.yy",
+                "resourcePath": "sounds\/main_music\/main_music.yy",
                 "resourceType": "GMSound"
             }
         },

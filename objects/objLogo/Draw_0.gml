@@ -4,8 +4,12 @@
 draw_self();
 
 // draw arrow
+sprite = sprite_index; // to set first sprite the same as default
+sprite_index = -1; // disable default sprite so draw_sprite work properly
+image_speed = 0.25; // Adjust to your needs since now 1 means sub image changes each frame
+
 arrowGap = 4;
-draw_sprite(spArrowDrumsticks, -1, _x - arrowGap, _y[option]);
+draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
 
 // draw text
 draw_set_font(titleFont);
