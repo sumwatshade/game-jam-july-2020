@@ -34,7 +34,7 @@
             "Key": "046dbf7f-e947-4ffe-9c55-0b5a3f7cae52",
             "Value": {
                 "id": "bd44b7e5-747a-4949-b24c-d536476d5417",
-                "resourcePath": "datafiles_yy\\Menu Jazz.wav.asd.yy",
+                "resourcePath": "datafiles_yy\/Menu Jazz.wav.asd.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -50,7 +50,7 @@
             "Key": "0b39e631-69de-476a-9546-7a818aaddbd4",
             "Value": {
                 "id": "16472e2e-4782-4cab-86bf-6f0a506fba77",
-                "resourcePath": "objects\\o_bad_guy\\o_bad_guy.yy",
+                "resourcePath": "objects\/o_bad_guy\/o_bad_guy.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -58,7 +58,7 @@
             "Key": "0eb0597f-2bf6-467c-affa-871f8da8c6f1",
             "Value": {
                 "id": "f342c15f-3ae3-4ebd-a721-d2495c64431f",
-                "resourcePath": "objects\\o_game_over\\o_game_over.yy",
+                "resourcePath": "objects\/o_game_over\/o_game_over.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "20dc1b00-95a6-4874-9c2f-7ee546266943",
+            "Value": {
+                "id": "6df31341-2816-442d-82b0-8d198e409094",
+                "resourcePath": "objects\\o_rand_sign\\o_rand_sign.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "258315a2-3dd7-4123-9645-a8824fc74fdd",
             "Value": {
                 "id": "776a8e62-c6f9-43c2-8293-b283b57869d6",
@@ -114,7 +122,7 @@
             "Key": "2b05e78a-5c0d-4c26-a0c3-19b79d8fbbbd",
             "Value": {
                 "id": "b14360fb-d870-4e94-86e1-3d5a5f08ee05",
-                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Jazz Flair Fail.als.yy",
+                "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Jazz Flair Fail.als.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -138,7 +146,7 @@
             "Key": "37f2e396-13af-4034-a43e-2fb3df08c59c",
             "Value": {
                 "id": "c5acc212-0e37-4d03-9f59-aec7c1e1c8b1",
-                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Ableton Project Info\\AProject.ico.yy",
+                "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Ableton Project Info\/AProject.ico.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -154,7 +162,7 @@
             "Key": "3c9e9a97-a014-48b6-82b8-0a6f4e96e547",
             "Value": {
                 "id": "020f833c-ca6e-4d7e-b5d0-521c66e04550",
-                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Desktop.ini.yy",
+                "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Desktop.ini.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -186,7 +194,7 @@
             "Key": "4b909f18-53c5-476f-93ba-6ad054401822",
             "Value": {
                 "id": "bc1fda26-263f-40fd-8f81-eaa301d6aa68",
-                "resourcePath": "objects\\Ranomizer\\Ranomizer.yy",
+                "resourcePath": "objects\/Ranomizer\/Ranomizer.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -194,7 +202,7 @@
             "Key": "4d9c90f7-1809-4080-af7e-10f5abdc5d1b",
             "Value": {
                 "id": "94bd96bb-b108-4b83-9d91-4b2bce2c743c",
-                "resourcePath": "datafiles_yy\\Jazz Flair Fail Project\\Ableton Project Info\\Project8_1.cfg.yy",
+                "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Ableton Project Info\/Project8_1.cfg.yy",
                 "resourceType": "GMIncludedFile"
             }
         },
@@ -202,15 +210,23 @@
             "Key": "4d9deab5-92b1-463b-b002-b5ec99973797",
             "Value": {
                 "id": "997dfdb6-aef4-48e2-82bc-4952ed3ba215",
-                "resourcePath": "views\\4d9deab5-92b1-463b-b002-b5ec99973797.yy",
+                "resourcePath": "views\/4d9deab5-92b1-463b-b002-b5ec99973797.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "4efbb9d3-67bd-466f-8cc1-2b2d420a4385",
+            "Value": {
+                "id": "010c3678-72bb-47a0-9fa3-56f23bee2cc0",
+                "resourcePath": "sprites\/sAudience\/sAudience.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
             "Key": "5578f544-417d-4b5b-aa19-e2a723e07ffe",
             "Value": {
                 "id": "ac8e7ec7-8ef5-48c2-9eb6-523bda0d6a5e",
-                "resourcePath": "sounds\\menu_music\\menu_music.yy",
+                "resourcePath": "sounds\/menu_music\/menu_music.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -247,6 +263,14 @@
             }
         },
         {
+            "Key": "678911e8-6163-4cd8-aaca-f70e05d48a73",
+            "Value": {
+                "id": "aeb9982f-5540-4472-861d-adf90564fe33",
+                "resourcePath": "sprites\/sSpotlight\/sSpotlight.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "6ab7d4b9-a89b-4aaa-bf70-376463309d8e",
             "Value": {
                 "id": "eea55b7c-cb23-4550-9844-5f729d519bfe",
@@ -255,10 +279,18 @@
             }
         },
         {
+            "Key": "706f0dbe-98d8-4de6-82be-d060a350391d",
+            "Value": {
+                "id": "575e71a7-1249-44be-b517-f18db62f1632",
+                "resourcePath": "sprites\\s_rand_sign\\s_rand_sign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72108e53-8ff3-49dc-9585-67c01101b491",
             "Value": {
                 "id": "d43b5547-b9d2-49de-a522-e20e3c3a6e06",
-                "resourcePath": "views\\72108e53-8ff3-49dc-9585-67c01101b491.yy",
+                "resourcePath": "views\/72108e53-8ff3-49dc-9585-67c01101b491.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -290,7 +322,7 @@
             "Key": "8499d515-d37d-4654-813e-cb015adc00d1",
             "Value": {
                 "id": "50b31621-7542-413c-b154-136fff3408af",
-                "resourcePath": "sounds\\jazz_flair_fail\\jazz_flair_fail.yy",
+                "resourcePath": "sounds\/jazz_flair_fail\/jazz_flair_fail.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -330,7 +362,7 @@
             "Key": "91521a97-4cc8-44a0-8e09-7d19ec8eea72",
             "Value": {
                 "id": "61e0e7e3-f050-49a8-9975-1da4c5403b1f",
-                "resourcePath": "objects\\Drum_left\\Drum_left.yy",
+                "resourcePath": "objects\/Drum_left\/Drum_left.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -351,10 +383,18 @@
             }
         },
         {
+            "Key": "99d5dcdd-77c0-447f-b799-cc5d2bc5f3f0",
+            "Value": {
+                "id": "680e74c8-47f2-4db8-b68c-bb74de50f74c",
+                "resourcePath": "objects\/oSpotlight\/oSpotlight.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "99d6249a-ac94-41c6-8c0b-5af73b68877e",
             "Value": {
                 "id": "76b44626-329b-40d6-8590-93e966fa4e44",
-                "resourcePath": "sprites\\sHealthbar_bar\\sHealthbar_bar.yy",
+                "resourcePath": "sprites\/sHealthbar_bar\/sHealthbar_bar.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -362,7 +402,7 @@
             "Key": "9c6d9f76-462c-4a88-abe3-331044a0cb33",
             "Value": {
                 "id": "a5c5179f-6df4-4063-873d-e398cd535cf6",
-                "resourcePath": "objects\\Drum_right\\Drum_right.yy",
+                "resourcePath": "objects\/Drum_right\/Drum_right.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -380,6 +420,14 @@
                 "id": "3e7de955-d9c3-4960-a7f1-ad032554b8bf",
                 "resourcePath": "views\/a1d13ccb-f557-48ca-a65f-a2a294f694b7.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "a42c4dce-b9da-4444-b5df-b6b7c20651ce",
+            "Value": {
+                "id": "62043be5-6edf-4f5a-ac50-00c98770eeb8",
+                "resourcePath": "sprites\/sBackground\/sBackground.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -410,7 +458,7 @@
             "Key": "ab07bf6c-bb74-4a02-a232-402463f0d4d3",
             "Value": {
                 "id": "d17b130a-1cba-4f12-9139-a5ea39d0b349",
-                "resourcePath": "sprites\\sHealthbar_bg\\sHealthbar_bg.yy",
+                "resourcePath": "sprites\/sHealthbar_bg\/sHealthbar_bg.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -458,7 +506,7 @@
             "Key": "b61ef83f-abf4-4d60-89d8-47355e17268e",
             "Value": {
                 "id": "f44254b1-b482-406d-84c1-7643ed8f2e94",
-                "resourcePath": "objects\\Lights\\Lights.yy",
+                "resourcePath": "objects\/Lights\/Lights.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -506,7 +554,7 @@
             "Key": "de3319bd-f686-45a9-9269-ccfeb04b488c",
             "Value": {
                 "id": "102cda49-be11-484c-885c-eced3d2d01e2",
-                "resourcePath": "sprites\\sprite16\\sprite16.yy",
+                "resourcePath": "sprites\/sprite16\/sprite16.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -514,7 +562,7 @@
             "Key": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
             "Value": {
                 "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
-                "resourcePath": "objects\\Drum_spawner\\Drum_spawner.yy",
+                "resourcePath": "objects\/Drum_spawner\/Drum_spawner.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -522,7 +570,7 @@
             "Key": "ec9f1bb0-8e29-42c7-8648-45f36b082088",
             "Value": {
                 "id": "52e8b9ba-9642-4a02-81d9-40ee461ef600",
-                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourcePath": "shaders\/shWhite\/shWhite.yy",
                 "resourceType": "GMShader"
             }
         },
@@ -546,7 +594,7 @@
             "Key": "f4c8f799-6de3-471c-98e6-736d8f0dbf10",
             "Value": {
                 "id": "de882435-bded-403d-b834-cfbb174715db",
-                "resourcePath": "views\\f4c8f799-6de3-471c-98e6-736d8f0dbf10.yy",
+                "resourcePath": "views\/f4c8f799-6de3-471c-98e6-736d8f0dbf10.yy",
                 "resourceType": "GMFolder"
             }
         },
@@ -555,6 +603,14 @@
             "Value": {
                 "id": "9abf3a3b-0a04-4410-bcae-0c53ad69e1b2",
                 "resourcePath": "sprites\/spArrowDrumsticks\/spArrowDrumsticks.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "fd1ebda0-dde6-4986-be9c-f1e0dcb98fa4",
+            "Value": {
+                "id": "be19c102-ade9-45c2-ba00-4545b7dd8b00",
+                "resourcePath": "sprites\/sCurtains\/sCurtains.yy",
                 "resourceType": "GMSprite"
             }
         }
