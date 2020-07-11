@@ -1,4 +1,4 @@
-
+if(global.gameover || global.pause) return;
 
 timer = 1;
 
