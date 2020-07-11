@@ -95,6 +95,7 @@ if (can_jump > 0) && (key_jump)					//If floor you are on the floor and you pres
 	can_jump = 0;
 }
 
+if (vsp < 0) && (!key_jump_held) vsp = max(vsp,0) //variable jump its touchy though 
 
 //Horizontal Collision
 if (place_meeting(x+hsp,y,oWall))
