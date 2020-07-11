@@ -1,6 +1,6 @@
 /*
  * If game paused, skip step
  */
-instance_create_layer(random(700)+100, random(400)+80, "Notes", Music_note);
+instance_create_layer(random_range(side_buffer, room_width - side_buffer), random_range(room_height - bottom_buffer, top_buffer), "Notes", Music_note);
 
 timer = 1

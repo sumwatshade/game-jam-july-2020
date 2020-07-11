@@ -1,0 +1,1 @@
+audio_sound_pitch(main_music, play_pitch);
