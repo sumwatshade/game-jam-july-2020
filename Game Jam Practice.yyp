@@ -215,6 +215,14 @@
             }
         },
         {
+            "Key": "abc0dabb-2811-426b-a171-05daf7a695e4",
+            "Value": {
+                "id": "c3a416cd-bec4-4f85-ae7c-00808d7252ea",
+                "resourcePath": "sprites\\sSax_man_run\\sSax_man_run.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abf17229-d053-481b-bd0a-548fcff42349",
             "Value": {
                 "id": "d4915c47-d4c4-4ad8-83ba-c2decebf787a",
