@@ -1,4 +1,4 @@
-/// @description Insert description here
+/// @description draw "game over" message
 // You can write your code in this editor
 if (global.gameover) {
 	// draw outline

@@ -1,2 +1,2 @@
-/// @description Insert description here
+/// @description set global var
 global.gameover = 0
