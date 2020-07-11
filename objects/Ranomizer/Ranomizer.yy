@@ -73,7 +73,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "timer",
+            "varName": "alarm_0_trigger",
             "varType": 0
         },
         {
@@ -115,7 +115,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "timer2",
+            "varName": "randoms_text_timer",
             "varType": 0
         },
         {
@@ -185,7 +185,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "1",
-            "varName": "timer3",
+            "varName": "alarm_1_trigger",
             "varType": 0
         },
         {
@@ -199,7 +199,7 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "0",
-            "varName": "timer4",
+            "varName": "planned_text_timer",
             "varType": 0
         },
         {

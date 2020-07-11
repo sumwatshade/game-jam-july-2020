@@ -1,6 +1,6 @@
-if (timer2 > 0)
+if (randoms_text_timer > 0)
 {
-	timer2 --;
+	randoms_text_timer --;
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
 	draw_set_font(titleFont);
@@ -10,12 +10,12 @@ if (timer2 > 0)
 
 else
 {
-	timer = 0
+	alarm_0_trigger = 0
 }
 
-if (timer4 > 0)
+if (planned_text_timer > 0)
 {
-	timer4 --;
+	planned_text_timer --;
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
 	draw_set_font(titleFont);
@@ -25,7 +25,7 @@ if (timer4 > 0)
 
 else
 {
-	timer3 = 0
+	alarm_1_trigger = 0
 }
 
 

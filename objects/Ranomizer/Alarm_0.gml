@@ -26,5 +26,5 @@ if(!(global.gameover || global.pause)) {
 };
 
 
-timer = 1;
-timer2 = text_timer;
+alarm_0_trigger = 1;
+randoms_text_timer = text_timer;
