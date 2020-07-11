@@ -65,7 +65,7 @@
             "m_owner": "abf17229-d053-481b-bd0a-548fcff42349"
         }
     ],
-    "maskSpriteId": "12d909e1-ec23-4165-aba8-c689301757b7",
+    "maskSpriteId": "5be5e56b-c862-46d8-a776-c2d60c46462e",
     "overriddenProperties": null,
     "parentObjectId": "00000000-0000-0000-0000-000000000000",
     "persistent": false,
@@ -125,6 +125,20 @@
             "varType": 0
         },
         {
+            "id": "4841252b-5f9e-49f5-ab68-84a52365127a",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.4",
+            "varName": "vsp_decel",
+            "varType": 0
+        },
+        {
             "id": "7c908b23-a093-4058-af30-cecae62b5eb0",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -134,7 +148,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": ".4",
             "varName": "grv",
             "varType": 0
         },
@@ -232,7 +246,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "-28",
+            "value": "-25",
             "varName": "jump_power",
             "varType": 0
         },
