@@ -8,5 +8,10 @@ if (place_meeting(x,y+vsp,oWall))
 {
 	image_index = 1;
 	vsp = 0;
+	if (timer = 1)
+	{
+	alarm[0] = 500;
+	timer = 0
+	}
 }
 y = y + vsp;

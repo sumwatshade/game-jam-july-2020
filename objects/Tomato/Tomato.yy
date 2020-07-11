@@ -13,6 +13,16 @@
             "enumb": 0,
             "eventtype": 3,
             "m_owner": "afae86c8-a0d1-4bb0-a1f5-33c123829ea8"
+        },
+        {
+            "id": "8ef3cab3-04ac-4cf7-b76d-be345a78b682",
+            "modelName": "GMEvent",
+            "mvc": "1.0",
+            "IsDnD": false,
+            "collisionObjectId": "00000000-0000-0000-0000-000000000000",
+            "enumb": 0,
+            "eventtype": 2,
+            "m_owner": "afae86c8-a0d1-4bb0-a1f5-33c123829ea8"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -58,6 +68,20 @@
             "resourceFilter": 1023,
             "value": "0",
             "varName": "vsp",
+            "varType": 0
+        },
+        {
+            "id": "2b4e2f9f-6853-4605-a4d4-aec94675c2e2",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "timer",
             "varType": 0
         }
     ],
