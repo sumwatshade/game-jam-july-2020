@@ -131,7 +131,8 @@ else
 	}
 	else
 	{
-		sprite_index = sPlayerR;
+		sprite_index = sSax_man_run;
+		//sprite_index = sPlayerR;
 	}
 }
 
