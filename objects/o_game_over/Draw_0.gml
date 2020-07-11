@@ -13,5 +13,5 @@ if (global.gameover) {
 	draw_text(room_width / 2, room_height / 2, "Game Over! Press 'R' to try again...");
 	
 	// set back to default
-	draw_set_color(c_black);
+	draw_set_color(c_white);
 }
