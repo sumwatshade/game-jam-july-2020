@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "3000dc43-ac7a-469b-af93-c3e52622d4e0",
+            "Value": {
+                "id": "e198f047-5910-419b-9c7c-43afb5b52ce3",
+                "resourcePath": "sprites\\sHealthBar_border\\sHealthBar_border.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "3f0a41f8-0ad9-4a6e-aa7a-b2b09813ae7a",
             "Value": {
                 "id": "fbf3b77d-cca2-4bcf-9ebe-0316c3c984ec",
@@ -172,6 +180,14 @@
                 "id": "8860a682-36db-429e-8fb1-5e072b6671f4",
                 "resourcePath": "objects\\oWall\\oWall.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8f4d5c51-39ad-4ecf-9c33-c554ae2fdaff",
+            "Value": {
+                "id": "a1e65de1-17fd-4494-aeec-c2507b80adc1",
+                "resourcePath": "sprites\\sHealthbar_line\\sHealthbar_line.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
