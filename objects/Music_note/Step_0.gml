@@ -1,7 +1,7 @@
 /*
  * If game paused, skip step
  */
-if(global.pause) return;
+if(global.pause || global.gameover) return;
 
 if (place_meeting (x, y, oPlayer) && !collected)
 {

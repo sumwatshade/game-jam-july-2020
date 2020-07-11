@@ -12,7 +12,7 @@ key_jump_held = keyboard_check(vk_space);									//If space is held
 /*
  * If game paused, skip step
  */
-if(global.pause) return;
+if(global.pause || global.gameover) return;
 
 
 //Horizontal Movement
