@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "706f0dbe-98d8-4de6-82be-d060a350391d",
+            "Value": {
+                "id": "575e71a7-1249-44be-b517-f18db62f1632",
+                "resourcePath": "sprites\\s_rand_sign\\s_rand_sign.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "72108e53-8ff3-49dc-9585-67c01101b491",
             "Value": {
                 "id": "d43b5547-b9d2-49de-a522-e20e3c3a6e06",
