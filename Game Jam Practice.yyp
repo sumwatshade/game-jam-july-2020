@@ -247,6 +247,14 @@
             }
         },
         {
+            "Key": "99d6249a-ac94-41c6-8c0b-5af73b68877e",
+            "Value": {
+                "id": "76b44626-329b-40d6-8590-93e966fa4e44",
+                "resourcePath": "sprites\\sHealthbar_bar\\sHealthbar_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "9c6d9f76-462c-4a88-abe3-331044a0cb33",
             "Value": {
                 "id": "a5c5179f-6df4-4063-873d-e398cd535cf6",
@@ -284,6 +292,14 @@
                 "id": "cc42de13-374b-4480-b42d-fe5b416a1aa7",
                 "resourcePath": "options\/linux\/options_linux.yy",
                 "resourceType": "GMLinuxOptions"
+            }
+        },
+        {
+            "Key": "ab07bf6c-bb74-4a02-a232-402463f0d4d3",
+            "Value": {
+                "id": "d17b130a-1cba-4f12-9139-a5ea39d0b349",
+                "resourcePath": "sprites\\sHealthbar_bg\\sHealthbar_bg.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
