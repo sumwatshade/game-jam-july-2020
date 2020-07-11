@@ -1,5 +1,5 @@
-if (instance_number(Music_note) < 2) && timer = 1
+if (instance_number(Music_note) < max_notes) && timer = 1
 {
-	alarm[0] = 200;
-	timer = 0
+	alarm[0] = random_range(alarm_min, alarm_max);
+	timer = 0;
 }

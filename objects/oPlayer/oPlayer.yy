@@ -111,6 +111,20 @@
             "varType": 0
         },
         {
+            "id": "0e8c63e3-107b-484f-b45e-51e2299fe1ac",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0.4",
+            "varName": "vsp_decel",
+            "varType": 0
+        },
+        {
             "id": "dd32bda3-166e-439c-871b-860a7ec5c3c1",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
@@ -134,7 +148,7 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
+            "value": ".6",
             "varName": "grv",
             "varType": 0
         },

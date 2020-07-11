@@ -1,38 +1,38 @@
 {
-    "id": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
+    "id": "4b909f18-53c5-476f-93ba-6ad054401822",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "Drum_spawner",
+    "name": "Ranomizer",
     "eventList": [
         {
-            "id": "3a35780e-32a4-4d06-b11f-008474bdaf6f",
+            "id": "38fdca8b-350e-4a6b-ab6a-04592ff1d9c2",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 3,
-            "m_owner": "e65e7399-9fef-4e7f-92e8-78eaffa0d712"
+            "m_owner": "4b909f18-53c5-476f-93ba-6ad054401822"
         },
         {
-            "id": "864a3bc4-3883-4676-ac64-201155bfaf88",
+            "id": "b9c9d146-6883-4443-b405-3b596088496b",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
             "enumb": 0,
             "eventtype": 2,
-            "m_owner": "e65e7399-9fef-4e7f-92e8-78eaffa0d712"
+            "m_owner": "4b909f18-53c5-476f-93ba-6ad054401822"
         },
         {
-            "id": "22b1e768-01a9-45ed-907d-d141686b086f",
+            "id": "85562479-fca6-471b-869a-7de7cf3461ff",
             "modelName": "GMEvent",
             "mvc": "1.0",
             "IsDnD": false,
             "collisionObjectId": "00000000-0000-0000-0000-000000000000",
-            "enumb": 1,
-            "eventtype": 2,
-            "m_owner": "e65e7399-9fef-4e7f-92e8-78eaffa0d712"
+            "enumb": 64,
+            "eventtype": 8,
+            "m_owner": "4b909f18-53c5-476f-93ba-6ad054401822"
         }
     ],
     "maskSpriteId": "00000000-0000-0000-0000-000000000000",
@@ -53,7 +53,77 @@
     "physicsStartAwake": true,
     "properties": [
         {
-            "id": "7a5c5afd-ae87-47c7-bbd2-5a186ab3d458",
+            "id": "f6295d84-14a4-48e9-a99a-4449c271ea1c",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "timer",
+            "varType": 0
+        },
+        {
+            "id": "8e23a210-3fc7-4166-ae1b-5340f70e5a85",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "120",
+            "varName": "min_alarm",
+            "varType": 0
+        },
+        {
+            "id": "9fcdbd51-0bc8-4231-b4c5-40f9b6cdba49",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "200",
+            "varName": "max_alarm",
+            "varType": 0
+        },
+        {
+            "id": "04e803f4-03c6-49bf-94c9-47c41d8cce82",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "timer2",
+            "varType": 0
+        },
+        {
+            "id": "16439f95-f088-4b0c-8e43-9f7a70659af1",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "90",
+            "varName": "text_timer",
+            "varType": 0
+        },
+        {
+            "id": "ce5c0551-185b-4fc3-bf23-8fb20446a100",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -63,11 +133,11 @@
             "rangeMin": 0,
             "resourceFilter": 1023,
             "value": "100",
-            "varName": "min_alarm",
+            "varName": "top_buffer",
             "varType": 0
         },
         {
-            "id": "c3ae7376-fbb4-415d-bf1d-a0a829791766",
+            "id": "50c4aa87-90c8-451c-8521-bc7b797fb34a",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -76,12 +146,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "400",
-            "varName": "max_alarm",
-            "varType": 0
+            "value": "0",
+            "varName": "message",
+            "varType": 2
         },
         {
-            "id": "7975f7f3-d98b-4dc5-a322-84d725cae623",
+            "id": "450fed08-6f8c-473e-bbbd-323e9e813dda",
             "modelName": "GMObjectProperty",
             "mvc": "1.0",
             "listItems": null,
@@ -90,36 +160,8 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "1",
-            "varName": "timer_left",
-            "varType": 0
-        },
-        {
-            "id": "37f4b91b-0337-4010-88ae-f1f955c3504f",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "1",
-            "varName": "timer_right",
-            "varType": 0
-        },
-        {
-            "id": "169e20f1-41b5-4a07-840c-b27ea63632d6",
-            "modelName": "GMObjectProperty",
-            "mvc": "1.0",
-            "listItems": null,
-            "multiselect": false,
-            "rangeEnabled": false,
-            "rangeMax": 10,
-            "rangeMin": 0,
-            "resourceFilter": 1023,
-            "value": "600",
-            "varName": "spawn_height",
+            "value": "0",
+            "varName": "chooser",
             "varType": 0
         }
     ],
