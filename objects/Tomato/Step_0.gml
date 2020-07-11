@@ -1,3 +1,8 @@
+/*
+ * If game paused, skip step
+ */
+if(global.pause) return;
+
 vsp = vsp + grv;					//adds grv to your vsp. Contantly accelerating
 
 image_speed = 0;
