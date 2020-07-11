@@ -95,6 +95,14 @@
             }
         },
         {
+            "Key": "3c92fc6c-6b63-4f35-a7f4-5046b2fe7e32",
+            "Value": {
+                "id": "4123af8f-7d48-4f98-932a-9319647c1eb9",
+                "resourcePath": "objects\\Music\\Music.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "3f0a41f8-0ad9-4a6e-aa7a-b2b09813ae7a",
             "Value": {
                 "id": "fbf3b77d-cca2-4bcf-9ebe-0316c3c984ec",
@@ -207,6 +215,14 @@
             }
         },
         {
+            "Key": "91521a97-4cc8-44a0-8e09-7d19ec8eea72",
+            "Value": {
+                "id": "61e0e7e3-f050-49a8-9975-1da4c5403b1f",
+                "resourcePath": "objects\\Drum_left\\Drum_left.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "92474248-a863-4f4f-8639-2472a577f6dd",
             "Value": {
                 "id": "f2b0d6ac-7541-4f38-b307-4f6fecc29ab0",
@@ -215,11 +231,35 @@
             }
         },
         {
+            "Key": "93cf0b1c-bc3c-4ae0-8c3f-fb55c3507a24",
+            "Value": {
+                "id": "734601a0-6118-4d10-9e8a-c11228de1322",
+                "resourcePath": "sprites\\sDrum\\sDrum.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "93e169f7-7506-4750-b23b-c1e274403e1b",
             "Value": {
                 "id": "fd6be947-0978-403c-b37c-49a34f7dd654",
                 "resourcePath": "views\/93e169f7-7506-4750-b23b-c1e274403e1b.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "99d6249a-ac94-41c6-8c0b-5af73b68877e",
+            "Value": {
+                "id": "76b44626-329b-40d6-8590-93e966fa4e44",
+                "resourcePath": "sprites\\sHealthbar_bar\\sHealthbar_bar.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "9c6d9f76-462c-4a88-abe3-331044a0cb33",
+            "Value": {
+                "id": "a5c5179f-6df4-4063-873d-e398cd535cf6",
+                "resourcePath": "objects\\Drum_right\\Drum_right.yy",
+                "resourceType": "GMObject"
             }
         },
         {
@@ -255,6 +295,14 @@
             }
         },
         {
+            "Key": "ab07bf6c-bb74-4a02-a232-402463f0d4d3",
+            "Value": {
+                "id": "d17b130a-1cba-4f12-9139-a5ea39d0b349",
+                "resourcePath": "sprites\\sHealthbar_bg\\sHealthbar_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abc0dabb-2811-426b-a171-05daf7a695e4",
             "Value": {
                 "id": "c3a416cd-bec4-4f85-ae7c-00808d7252ea",
@@ -284,6 +332,14 @@
                 "id": "f3721d19-f1b9-43a7-ab08-44da23cade56",
                 "resourcePath": "views\/b037d07a-be52-405b-a075-6b367fe1da67.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "b068be9e-0020-41f8-b14e-8556dc9dc42c",
+            "Value": {
+                "id": "614d3b6d-a4fb-45f8-b2f0-8aabebe39987",
+                "resourcePath": "sounds\\main_music\\main_music.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -324,6 +380,14 @@
                 "id": "862efabe-95eb-4b83-a836-1ccb8eebb03d",
                 "resourcePath": "sprites\/sBasedrum\/sBasedrum.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "e65e7399-9fef-4e7f-92e8-78eaffa0d712",
+            "Value": {
+                "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
+                "resourcePath": "objects\\Drum_spawner\\Drum_spawner.yy",
+                "resourceType": "GMObject"
             }
         },
         {
