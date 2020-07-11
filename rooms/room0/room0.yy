@@ -52,7 +52,8 @@
         "643c9ea9-4a33-4069-b9a0-8de43f0541c8",
         "8848d6a8-a70f-4aa3-996d-fd511fc49934",
         "ff91d85d-69c5-423c-8464-1a513bfab5eb",
-        "c9e6e489-e28d-4887-81cb-b7b91c449c8e"
+        "c9e6e489-e28d-4887-81cb-b7b91c449c8e",
+        "33445b18-8ee8-4a41-b357-009205c5cbe6"
     ],
     "IsDnD": false,
     "layers": [
@@ -85,9 +86,35 @@
         },
         {
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
+            "name": "Drum",
+            "id": "aac54319-4697-4ba9-9303-b2cf05e63f33",
+            "depth": 100,
+            "grid_x": 32,
+            "grid_y": 32,
+            "hierarchyFrozen": false,
+            "hierarchyVisible": true,
+            "inheritLayerDepth": false,
+            "inheritLayerSettings": false,
+            "inheritSubLayers": false,
+            "inheritVisibility": false,
+            "instances": [
+{"name": "inst_E23E21F","id": "33445b18-8ee8-4a41-b357-009205c5cbe6","colour": { "Value": 4294967295 },"creationCodeFile": "","creationCodeType": "","ignore": false,"imageIndex": 0,"imageSpeed": 1,"inheritCode": false,"inheritItemSettings": false,"IsDnD": false,"m_originalParentID": "00000000-0000-0000-0000-000000000000","m_serialiseFrozen": false,"modelName": "GMRInstance","name_with_no_file_rename": "inst_E23E21F","objId": "e65e7399-9fef-4e7f-92e8-78eaffa0d712","properties": null,"rotation": 0,"scaleX": 1,"scaleY": 1,"mvc": "1.1","x": 1184,"y": 480}
+            ],
+            "layers": [
+
+            ],
+            "m_parentID": "00000000-0000-0000-0000-000000000000",
+            "m_serialiseFrozen": false,
+            "modelName": "GMRInstanceLayer",
+            "mvc": "1.0",
+            "userdefined_depth": false,
+            "visible": true
+        },
+        {
+            "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Tomato",
             "id": "2439bf9b-8a9a-45b9-b809-5f46ebf7676d",
-            "depth": 100,
+            "depth": 200,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -120,7 +147,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Notes",
             "id": "d083cc43-102f-4ab3-9500-ced342d2c4c9",
-            "depth": 200,
+            "depth": 300,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -146,7 +173,7 @@
             "__type": "GMRInstanceLayer_Model:#YoYoStudio.MVCFormat",
             "name": "Walls",
             "id": "001048f6-493c-4579-8868-7efc1b04f47a",
-            "depth": 300,
+            "depth": 400,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
@@ -209,7 +236,7 @@
             "animationFPS": 15,
             "animationSpeedType": "0",
             "colour": { "Value": 4293237769 },
-            "depth": 400,
+            "depth": 500,
             "grid_x": 32,
             "grid_y": 32,
             "hierarchyFrozen": false,
