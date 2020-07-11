@@ -431,6 +431,14 @@
             }
         },
         {
+            "Key": "ec9f1bb0-8e29-42c7-8648-45f36b082088",
+            "Value": {
+                "id": "52e8b9ba-9642-4a02-81d9-40ee461ef600",
+                "resourcePath": "shaders\\shWhite\\shWhite.yy",
+                "resourceType": "GMShader"
+            }
+        },
+        {
             "Key": "eea1d832-9d16-4312-baf3-39c601ccba64",
             "Value": {
                 "id": "ff6e7204-d79f-4ff8-ab10-8ae864cef15d",
