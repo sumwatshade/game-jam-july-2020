@@ -271,6 +271,14 @@
             }
         },
         {
+            "Key": "ab07bf6c-bb74-4a02-a232-402463f0d4d3",
+            "Value": {
+                "id": "d17b130a-1cba-4f12-9139-a5ea39d0b349",
+                "resourcePath": "sprites\\sHealthbar_bg\\sHealthbar_bg.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "abc0dabb-2811-426b-a171-05daf7a695e4",
             "Value": {
                 "id": "c3a416cd-bec4-4f85-ae7c-00808d7252ea",
