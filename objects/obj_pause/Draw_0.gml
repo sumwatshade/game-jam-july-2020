@@ -13,9 +13,6 @@ if (global.pause and !global.gameover) {
 	draw_set_alpha(1)
 	draw_text(room_width / 2, room_height / 2, "Game Paused");
 	
-	// set back to default
-	draw_set_color(c_black);
-	
 	// #########################
 	// ### Draw menu options ###
 	// #########################
@@ -35,5 +32,4 @@ if (global.pause and !global.gameover) {
 		draw_text(_x, _y[i], txt[i]);
 		i += 1;
 	}
-	
 }
