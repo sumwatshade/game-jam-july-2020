@@ -79,6 +79,14 @@
             }
         },
         {
+            "Key": "258315a2-3dd7-4123-9645-a8824fc74fdd",
+            "Value": {
+                "id": "776a8e62-c6f9-43c2-8293-b283b57869d6",
+                "resourcePath": "fonts\/titleFont\/titleFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "2f220926-87f0-4280-b521-6ee9ac9d0487",
             "Value": {
                 "id": "cc6bf8d7-60d2-4493-8a77-27b059df9ad3",
@@ -98,7 +106,7 @@
             "Key": "3c92fc6c-6b63-4f35-a7f4-5046b2fe7e32",
             "Value": {
                 "id": "4123af8f-7d48-4f98-932a-9319647c1eb9",
-                "resourcePath": "objects\\Music\\Music.yy",
+                "resourcePath": "objects\/Music\/Music.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -199,11 +207,27 @@
             }
         },
         {
+            "Key": "8530f202-e3f9-44db-ac04-c5c293240c7e",
+            "Value": {
+                "id": "63efe97a-a513-4654-b92a-205b3ceb01bf",
+                "resourcePath": "rooms\/title\/title.yy",
+                "resourceType": "GMRoom"
+            }
+        },
+        {
             "Key": "8893f292-ba69-48d7-aa00-6d58ae08972f",
             "Value": {
                 "id": "513af42f-9512-47a2-ad9c-a36c4ae2228b",
                 "resourcePath": "views\/8893f292-ba69-48d7-aa00-6d58ae08972f.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "89f77133-53a9-4af1-a2f0-d69013024c4c",
+            "Value": {
+                "id": "0d69281a-8fd7-4bf2-891b-c2f706fc551d",
+                "resourcePath": "sprites\/spLogo\/spLogo.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -271,6 +295,14 @@
             }
         },
         {
+            "Key": "a7a51cc4-eecd-46cc-8cd6-59af442df33a",
+            "Value": {
+                "id": "40a39049-9699-49c7-95c1-7c04f3b089da",
+                "resourcePath": "objects\/objLogo\/objLogo.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "a8cccd9f-7b4b-4d3c-bd92-61a5d55bc005",
             "Value": {
                 "id": "77ff1ec1-b58b-4517-90f3-704c3106b8f8",
@@ -330,7 +362,7 @@
             "Key": "b068be9e-0020-41f8-b14e-8556dc9dc42c",
             "Value": {
                 "id": "614d3b6d-a4fb-45f8-b2f0-8aabebe39987",
-                "resourcePath": "sounds\\main_music\\main_music.yy",
+                "resourcePath": "sounds\/main_music\/main_music.yy",
                 "resourceType": "GMSound"
             }
         },
@@ -396,6 +428,14 @@
                 "id": "26d557fd-0c56-4a7a-b0e4-f25881c49a4f",
                 "resourcePath": "options\/mac\/options_mac.yy",
                 "resourceType": "GMMacOptions"
+            }
+        },
+        {
+            "Key": "f5de6cc1-e4d9-4b13-8256-65c0a815990f",
+            "Value": {
+                "id": "9abf3a3b-0a04-4410-bcae-0c53ad69e1b2",
+                "resourcePath": "sprites\/spArrowDrumsticks\/spArrowDrumsticks.yy",
+                "resourceType": "GMSprite"
             }
         }
     ],
