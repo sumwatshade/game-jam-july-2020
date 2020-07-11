@@ -21,3 +21,6 @@ if (collected)
 		instance_destroy();
 	}
 }
+
+y = anchorY + sin(timer*frequency)*amplitude;
+timer++;
