@@ -127,6 +127,14 @@
             }
         },
         {
+            "Key": "4d9deab5-92b1-463b-b002-b5ec99973797",
+            "Value": {
+                "id": "997dfdb6-aef4-48e2-82bc-4952ed3ba215",
+                "resourcePath": "views\\4d9deab5-92b1-463b-b002-b5ec99973797.yy",
+                "resourceType": "GMFolder"
+            }
+        },
+        {
             "Key": "5be5e56b-c862-46d8-a776-c2d60c46462e",
             "Value": {
                 "id": "6bfae42d-63cd-480c-82e6-e708d79eb6b4",
@@ -178,16 +186,8 @@
             "Key": "7aefd0fb-3299-4ecc-b5b2-e92fb609e06d",
             "Value": {
                 "id": "f188bd8e-e8e1-4e39-b19b-b9d37cc20bf3",
-                "resourcePath": "objects\\obj_pause\\obj_pause.yy",
+                "resourcePath": "objects\/obj_pause\/obj_pause.yy",
                 "resourceType": "GMObject"
-            }
-        },
-        {
-            "Key": "807dfed5-8cd9-454d-b51a-27b5240f9646",
-            "Value": {
-                "id": "b4c809e4-963e-4ef6-9f93-d31271e75a0b",
-                "resourcePath": "views\/807dfed5-8cd9-454d-b51a-27b5240f9646.yy",
-                "resourceType": "GMFolder"
             }
         },
         {
@@ -228,14 +228,6 @@
                 "id": "f2b0d6ac-7541-4f38-b307-4f6fecc29ab0",
                 "resourcePath": "views\/92474248-a863-4f4f-8639-2472a577f6dd.yy",
                 "resourceType": "GMFolder"
-            }
-        },
-        {
-            "Key": "93cf0b1c-bc3c-4ae0-8c3f-fb55c3507a24",
-            "Value": {
-                "id": "734601a0-6118-4d10-9e8a-c11228de1322",
-                "resourcePath": "sprites\\sDrum\\sDrum.yy",
-                "resourceType": "GMSprite"
             }
         },
         {
@@ -371,6 +363,14 @@
             "Value": {
                 "id": "6318a060-25e4-4667-9696-dcf2b87cca5d",
                 "resourcePath": "sprites\/sWall\/sWall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "dcc18df0-3fdf-4410-b7d8-2bd3cb599c98",
+            "Value": {
+                "id": "862efabe-95eb-4b83-a836-1ccb8eebb03d",
+                "resourcePath": "sprites\/sBasedrum\/sBasedrum.yy",
                 "resourceType": "GMSprite"
             }
         },
