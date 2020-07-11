@@ -119,6 +119,14 @@
             }
         },
         {
+            "Key": "2dcb0ade-cf57-4281-b7ec-915aaa7586a0",
+            "Value": {
+                "id": "03229837-fc47-4603-a0a4-f37d7a6f10a4",
+                "resourcePath": "objects\\noteScore\\noteScore.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "2f220926-87f0-4280-b521-6ee9ac9d0487",
             "Value": {
                 "id": "cc6bf8d7-60d2-4493-8a77-27b059df9ad3",
@@ -548,6 +556,14 @@
                 "id": "51b9cbab-0e1a-49af-a1e1-176aa3fb8f6b",
                 "resourcePath": "objects\/Drum_spawner\/Drum_spawner.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "e6d7ff97-a202-4f2d-ac5c-1c817da2f472",
+            "Value": {
+                "id": "bc5d0407-bdf9-4068-a5b5-1aa7994abf6f",
+                "resourcePath": "fonts\\scoreFont\\scoreFont.yy",
+                "resourceType": "GMFont"
             }
         },
         {
