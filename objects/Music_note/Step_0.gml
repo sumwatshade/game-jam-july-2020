@@ -17,6 +17,7 @@ if (collected)
 	
 	if (floor(image_index) >= image_number - 1)
 	{
+		noteScore.points+=1;
 		instance_destroy();
 	}
 }
