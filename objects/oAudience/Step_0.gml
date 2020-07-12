@@ -6,7 +6,7 @@ if(global.pause || global.gameover) return;
 if (cheering) {
 	timer = cheerTime + 1;
 	cheering = 0;
-	frequency *= 1.5
+	frequency *= cheerFrequencyRampFactor
 	y = anchorY + sin(timer*frequency)*amplitude;
 }
 
