@@ -239,6 +239,14 @@
             }
         },
         {
+            "Key": "4a1f8c7e-7236-44ca-977a-bf466de87420",
+            "Value": {
+                "id": "c89cd9c0-2645-41ab-8649-f1cc249c7b74",
+                "resourcePath": "sprites\\sBasedrum_new_fall\\sBasedrum_new_fall.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "4b909f18-53c5-476f-93ba-6ad054401822",
             "Value": {
                 "id": "bc1fda26-263f-40fd-8f81-eaa301d6aa68",
@@ -460,6 +468,14 @@
                 "id": "f2b0d6ac-7541-4f38-b307-4f6fecc29ab0",
                 "resourcePath": "views\/92474248-a863-4f4f-8639-2472a577f6dd.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "92aa8d5d-57e5-48b5-b4e3-7ec94adc8eae",
+            "Value": {
+                "id": "e68140d3-a29a-4cad-b601-2d864a99a8a8",
+                "resourcePath": "objects\\o_super\\o_super.yy",
+                "resourceType": "GMObject"
             }
         },
         {

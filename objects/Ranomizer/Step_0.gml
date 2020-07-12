@@ -21,3 +21,11 @@ overhead_lights_right.image_speed = image_speed_vals[normalized_crazy_level];
 overhead_lights_left.image_speed = image_speed_vals[normalized_crazy_level];
 oAudience.frequency = audience_frequency_vals[normalized_crazy_level];
 oAudience.amplitude = audience_amplitude_vals[normalized_crazy_level];
+
+
+if(crazy_level > 10) {
+	Tomato.collision_damage = 15;
+	Drum_left.collision_damage = 20;
+	Drum_right.collision_damage = 20;
+	//Tomato.sprite_index = sBasedrum_new_fall
+}

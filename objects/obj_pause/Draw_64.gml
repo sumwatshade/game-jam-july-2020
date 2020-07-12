@@ -11,8 +11,7 @@ if(global.pause and !global.gameover) {
 
 	controls = [
 		"MOVE: ARROW KEYS / WASD", 
-		"SELECT + JUMP: SPACEBAR / ENTER",
-		"GET NOTES, AVOID EVERYTHING ELSE"
+		"SELECT + JUMP: SPACEBAR / ENTER"
 	] 
 
 	// draw options
@@ -24,6 +23,30 @@ if(global.pause and !global.gameover) {
 	draw_set_font(subtitleFont);
 	while i < array_length_1d(controls) {
 		draw_text(ctl_x, curr_y, controls[i]);
+		i += 1;
+		curr_y += ctl_pad
+	
+	}
+	
+	
+	// Draw description
+	ctl_x = floor(room_width - room_width / 2.6);
+	curr_y = ctl_y;
+
+	description = [
+		"GET NOTES, AVOID EVERYTHING ELSE",
+		"COLLECT " + string(o_super.super_modulo) + " NOTES FOR A POWERUP!"
+	] 
+
+	// draw options
+	i = 0;
+
+	draw_set_valign(fa_left)
+	draw_set_halign(fa_left)
+	draw_set_color(c_aqua);
+	draw_set_font(subtitleFont);
+	while i < array_length_1d(description) {
+		draw_text(ctl_x, curr_y, description[i]);
 		i += 1;
 		curr_y += ctl_pad
 	
