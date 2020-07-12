@@ -11,3 +11,5 @@ healthbar_x = window_get_width() /2 + (healthbar_width / 2);
 healthbar_y = 10;
 
 cant_take_damage = 0;
+
+recoil = 0;
