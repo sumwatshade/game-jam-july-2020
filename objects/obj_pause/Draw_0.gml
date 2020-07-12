@@ -11,7 +11,7 @@ if (global.pause and !global.gameover) {
 	// Draw text
 	draw_set_color(c_white)
 	draw_set_alpha(1)
-	draw_text(room_width / 2, room_height / 2, "Game Paused");
+	draw_text(room_width / 2, room_height / 2, "GAME PAUSED");
 	
 	// #########################
 	// ### Draw menu options ###
