@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Controls
-ctl_x = floor(window_get_width() / 32);
+ctl_x = floor(window_get_width() *0.65);
 ctl_pad = 25
 
 ctl_y = optionStart + 100;

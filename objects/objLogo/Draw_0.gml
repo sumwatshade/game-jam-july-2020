@@ -5,7 +5,7 @@ draw_self();
 
 // draw arrow
 arrowGap = 4;
-draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
+draw_sprite(s_menu_selector, image_index, _x + 38, _y[option]+18);
 
 // draw text
 draw_set_color(c_white);
