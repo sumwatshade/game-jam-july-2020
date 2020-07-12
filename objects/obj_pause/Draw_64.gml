@@ -11,7 +11,7 @@ if(global.pause and !global.gameover) {
 
 	controls = [
 		"Move: Arrow Keys / WASD", 
-		"Select/Jump: Spacebar"
+		"Select + Jump: Spacebar / Enter"
 	] 
 
 	// draw options

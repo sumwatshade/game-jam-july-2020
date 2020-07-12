@@ -11,7 +11,7 @@ if option < 0
 else if option > maxOption
 	option = 0;
 	
-if keyboard_check_pressed(vk_space) {
+if keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter) {
 	switch option {
 		case 0:
 			audio_stop_sound(menu_music)
