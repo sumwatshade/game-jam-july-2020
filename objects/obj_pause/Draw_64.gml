@@ -35,7 +35,7 @@ if(global.pause and !global.gameover) {
 
 	description = [
 		"GET NOTES, AVOID EVERYTHING ELSE",
-		"COLLECT 20 NOTES FOR A POWERUP!"
+		"COLLECT " + string(o_super.super_modulo) + " NOTES FOR A POWERUP!"
 	] 
 
 	// draw options
