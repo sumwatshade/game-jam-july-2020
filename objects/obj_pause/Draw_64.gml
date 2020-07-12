@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Controls
-if(global.pause) {
+if(global.pause and !global.gameover) {
 	ctl_x = floor(room_width / 32);
 	ctl_pad = 25
 

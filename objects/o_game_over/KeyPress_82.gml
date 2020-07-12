@@ -4,5 +4,6 @@ if (global.gameover) {
 	global.gameover = 0;
 	audio_stop_all();
 	global.points = 0;
+	global.pause = 0;
 	room_restart();
 }
