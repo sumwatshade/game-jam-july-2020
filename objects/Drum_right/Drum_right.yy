@@ -52,12 +52,12 @@
             "rangeMax": 10,
             "rangeMin": 0,
             "resourceFilter": 1023,
-            "value": "7",
+            "value": "5",
             "varName": "hsp",
             "varType": 0
         }
     ],
     "solid": false,
-    "spriteId": "dcc18df0-3fdf-4410-b7d8-2bd3cb599c98",
+    "spriteId": "9528ca2b-3578-4f87-a19c-18f838e076f8",
     "visible": true
 }

@@ -4,4 +4,4 @@ if(global.pause || global.gameover) {
 }
 
 x = x + hsp
-image_speed = 1;
+image_speed = -1;
