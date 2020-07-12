@@ -9,8 +9,9 @@ ctl_y = optionStart + 100;
 curr_y = ctl_y;
 
 controls = [
-	"Move: Arrow Keys / WASD", 
-	"Select + Jump: Spacebar / Enter"
+	"MOVE: ARROW KEYS / WASD", 
+	"SELECT + JUMP: SPACEBAR / ENTER",
+	"GET NOTES, AVOID EVERYTHING ELSE"
 ] 
 
 // draw options
