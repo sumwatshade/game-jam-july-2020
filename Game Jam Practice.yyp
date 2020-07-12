@@ -639,6 +639,14 @@
             }
         },
         {
+            "Key": "b6872392-0b88-4f91-a800-322a1c269039",
+            "Value": {
+                "id": "c0bea72c-a2ed-414d-b00a-1c1a19088b62",
+                "resourcePath": "objects\\o_mute\\o_mute.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "b6bbe73c-112b-43d0-8a3d-8cdf2454c840",
             "Value": {
                 "id": "7fee360e-2148-4505-86ed-d65c8cb8b337",
