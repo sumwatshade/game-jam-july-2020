@@ -11,7 +11,8 @@ if (global.gameover) {
 	draw_set_color(c_white)
 	draw_set_alpha(1)
 	draw_text(room_width / 2, room_height / 2, "Game Over! Press 'R' to try again...");
-	
+	draw_text(room_width / 2, room_height / 2 + 100, "Your Score: " + string(global.points));
+	draw_text(room_width / 2, room_height / 2 + 150, "High Score: " + string(highscore_value(1)));
 	// set back to default
 	draw_set_color(c_white);
 }
