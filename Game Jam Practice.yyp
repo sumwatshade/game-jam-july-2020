@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1fb45c6c-1688-4ed7-8440-ff347e3d9904",
+            "Value": {
+                "id": "7f237b06-b3d8-4892-b9df-90b26de78e7b",
+                "resourcePath": "objects\\object20\\object20.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "20dc1b00-95a6-4874-9c2f-7ee546266943",
             "Value": {
                 "id": "6df31341-2816-442d-82b0-8d198e409094",
@@ -367,6 +375,14 @@
             }
         },
         {
+            "Key": "8b7c7c59-2041-4a65-aeed-30ec9669dab3",
+            "Value": {
+                "id": "4ba412d0-be13-45d2-8f65-f25f020bc59a",
+                "resourcePath": "objects\\overhead_lights\\overhead_lights.yy",
+                "resourceType": "GMObject"
+            }
+        },
+        {
             "Key": "8f135b43-2b07-4ca2-b5cd-3a5c319b5f2f",
             "Value": {
                 "id": "8860a682-36db-429e-8fb1-5e072b6671f4",
@@ -428,6 +444,14 @@
                 "id": "a5c5179f-6df4-4063-873d-e398cd535cf6",
                 "resourcePath": "objects\/Drum_right\/Drum_right.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "9d886a13-16e0-4426-8c7d-4826d560d460",
+            "Value": {
+                "id": "544a45d9-64c9-4e4f-af3c-6515432b7915",
+                "resourcePath": "sprites\\s_overhead_light_left\\s_overhead_light_left.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
@@ -539,6 +563,14 @@
             "Value": {
                 "id": "7fee360e-2148-4505-86ed-d65c8cb8b337",
                 "resourcePath": "sprites\/sprite5\/sprite5.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "b862bc53-b62a-423a-a0a0-d2887a849eba",
+            "Value": {
+                "id": "d6235a03-ad5e-442a-8f19-9f8a0fbcf83d",
+                "resourcePath": "sprites\\s_overhead_light_right\\s_overhead_light_right.yy",
                 "resourceType": "GMSprite"
             }
         },
