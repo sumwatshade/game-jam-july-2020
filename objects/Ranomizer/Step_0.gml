@@ -25,5 +25,5 @@ oAudience.amplitude = audience_amplitude_vals[normalized_crazy_level];
 
 if(crazy_level > 10) {
 	Tomato.collision_damage = 15;
-	Tomato.sprite_index = sBasedrum_new
+	Tomato.sprite_index = sBasedrum_new_fall
 }
