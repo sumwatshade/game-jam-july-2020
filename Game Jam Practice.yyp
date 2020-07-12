@@ -103,6 +103,14 @@
             }
         },
         {
+            "Key": "1af5d8dd-26dc-444b-8cd3-1512fff39759",
+            "Value": {
+                "id": "3c6517e3-40ec-448b-83bb-fef61118cdb2",
+                "resourcePath": "sounds\\Hit_sax_5\\Hit_sax_5.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "1fb45c6c-1688-4ed7-8440-ff347e3d9904",
             "Value": {
                 "id": "7f237b06-b3d8-4892-b9df-90b26de78e7b",
@@ -132,6 +140,14 @@
                 "id": "b14360fb-d870-4e94-86e1-3d5a5f08ee05",
                 "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Jazz Flair Fail.als.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "2c2949e7-7d4c-4c4e-ae68-3b1e4d5890fe",
+            "Value": {
+                "id": "1e860157-7678-47f5-b278-918195d5dba3",
+                "resourcePath": "sounds\\Hit_sax_4\\Hit_sax_4.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -180,6 +196,14 @@
                 "id": "020f833c-ca6e-4d7e-b5d0-521c66e04550",
                 "resourcePath": "datafiles_yy\/Jazz Flair Fail Project\/Desktop.ini.yy",
                 "resourceType": "GMIncludedFile"
+            }
+        },
+        {
+            "Key": "3e9cab7c-c419-4373-97e9-71e39d772984",
+            "Value": {
+                "id": "228f96c9-08c0-4e5f-b018-2edbcc9ed29e",
+                "resourcePath": "sounds\\Hit_sax_6\\Hit_sax_6.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -327,6 +351,14 @@
             }
         },
         {
+            "Key": "7daf09a5-4446-4583-9450-3ea96ccbae0d",
+            "Value": {
+                "id": "7dd1a710-d6eb-45cb-9d29-a6fdb4e51bae",
+                "resourcePath": "sounds\\Pickup_Note\\Pickup_Note.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
             "Key": "8456b4e1-6dd7-41dd-aa7c-b58c913418ed",
             "Value": {
                 "id": "ee684eca-6849-47af-ad52-7a8778bbe9d9",
@@ -380,6 +412,14 @@
                 "id": "4ba412d0-be13-45d2-8f65-f25f020bc59a",
                 "resourcePath": "objects\\overhead_lights\\overhead_lights.yy",
                 "resourceType": "GMObject"
+            }
+        },
+        {
+            "Key": "8dd589a5-b78d-4845-8610-0c238ff4d013",
+            "Value": {
+                "id": "c1c4d4aa-3232-424b-bf95-2cf1058860c5",
+                "resourcePath": "sounds\\Hit_sax_1\\Hit_sax_1.yy",
+                "resourceType": "GMSound"
             }
         },
         {
@@ -580,6 +620,22 @@
                 "id": "d6235a03-ad5e-442a-8f19-9f8a0fbcf83d",
                 "resourcePath": "sprites\\s_overhead_light_right\\s_overhead_light_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "c81b8b3b-30d3-49be-8f66-1827ff4cd3ce",
+            "Value": {
+                "id": "26eb3c70-5408-4034-b51c-c14ccff0618e",
+                "resourcePath": "sounds\\Hit_sax_3\\Hit_sax_3.yy",
+                "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "cc4d994d-814c-4a9e-bae1-2e2b31be6036",
+            "Value": {
+                "id": "ec290e7b-4e82-4ab0-8d0d-d8e26c294f5e",
+                "resourcePath": "sounds\\Hit_sax_2\\Hit_sax_2.yy",
+                "resourceType": "GMSound"
             }
         },
         {
