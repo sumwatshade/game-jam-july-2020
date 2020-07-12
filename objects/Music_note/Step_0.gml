@@ -18,6 +18,10 @@ if (collected)
 	if (floor(image_index) >= image_number - 1)
 	{
 		noteScore.points+=1;
+		if (noteScore.points mod 2 = 0) {
+			oAudience.cheering = 1;
+		}
+		//oAudience.cheering = 1;
 		instance_destroy();
 	}
 }
