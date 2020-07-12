@@ -418,7 +418,7 @@
             "Key": "98483b37-aacb-4426-a739-0c182a35e018",
             "Value": {
                 "id": "a6d36f2b-e311-4953-a26e-4762ea5dba1e",
-                "resourcePath": "sprites\/sMusic_note\/sMusic_note.yy",
+                "resourcePath": "sprites\\sMusic_note_gone\\sMusic_note_gone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -475,6 +475,14 @@
             "Value": {
                 "id": "62043be5-6edf-4f5a-ac50-00c98770eeb8",
                 "resourcePath": "sprites\/sBackground\/sBackground.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "a737a661-6410-4d90-8bd8-b343d64cf552",
+            "Value": {
+                "id": "20cb7249-8aa5-48b2-b01c-2ce5b0f5b3e3",
+                "resourcePath": "sprites\\sMusic_note\\sMusic_note.yy",
                 "resourceType": "GMSprite"
             }
         },

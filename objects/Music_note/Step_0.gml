@@ -13,7 +13,7 @@ if (place_meeting (x, y, oPlayer) && !collected)
 
 if (collected)
 {
-	//sprite_index = s_coin_effect;
+	sprite_index = sMusic_note_gone;
 	
 	if (floor(image_index) >= image_number - 1)
 	{
