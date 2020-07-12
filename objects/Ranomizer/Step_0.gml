@@ -10,9 +10,10 @@ if (alarm_1_trigger = 1)
 	alarm[1] = 500;
 }
 
-image_speed_vals = [0, 0, 0.2, 0.2, 0.4, 0.4, 0.6, 0.6, 0.8, 0.8, 1]
-audience_frequency_vals = [0, 0.05, 0.05, 0.07, 0.07, 0.09, 0.09, 0.11, 0.11, 0.11, 0.11]
-audience_amplitude_vals = [0, 3, 4, 6, 9, 13, 15, 20, 20, 20, 20]
+// Crazy Levels:			[0,   1,    2,    3,    4,    5,    6,    7,    8,    9,    10   ]
+image_speed_vals =			[0,   0,    0.2,  0.2,  0.4,  0.4,  0.6,  0.6,  0.8,  0.8,  1    ]
+audience_frequency_vals =	[0,   0.05, 0.05, 0.07, 0.07, 0.09, 0.09, 0.11, 0.11, 0.11, 0.11 ]
+audience_amplitude_vals =	[0,	  3,    4,    6,    9,    13,   15,   20,   20,   20,   20   ]
 
 normalized_crazy_level = min(crazy_level, 10);
 
