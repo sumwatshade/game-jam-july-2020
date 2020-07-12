@@ -1,9 +1,9 @@
 /// @description increment / decrement
 // You can write your code in this editor
 
-if keyboard_check_pressed(vk_down)
+if keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"))
 	option += 1;
-else if keyboard_check_pressed(vk_up)
+else if keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"))
 	option -= 1;
 
 if option < 0

@@ -3,6 +3,7 @@
 option = 0;
 maxOption = 1;
 
+// menu
 _x = floor(window_get_width() / 2);
 
 optionStart = floor(window_get_height() * 0.75);
@@ -14,3 +15,4 @@ txt[0] = "Start";
 txt[1] = "Quit";
 
 audio_play_sound(menu_music, 1000, true);
+
