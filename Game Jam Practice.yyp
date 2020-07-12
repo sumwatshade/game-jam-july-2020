@@ -642,7 +642,7 @@
             "Key": "b6872392-0b88-4f91-a800-322a1c269039",
             "Value": {
                 "id": "c0bea72c-a2ed-414d-b00a-1c1a19088b62",
-                "resourcePath": "objects\\o_mute\\o_mute.yy",
+                "resourcePath": "objects\/o_mute\/o_mute.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -844,6 +844,14 @@
                 "id": "de882435-bded-403d-b834-cfbb174715db",
                 "resourcePath": "views\/f4c8f799-6de3-471c-98e6-736d8f0dbf10.yy",
                 "resourceType": "GMFolder"
+            }
+        },
+        {
+            "Key": "fafd7c34-d351-413a-9329-10797e7ba73b",
+            "Value": {
+                "id": "f8565d60-13f6-4728-b884-d4a527dd8342",
+                "resourcePath": "sprites\/sSuper\/sSuper.yy",
+                "resourceType": "GMSprite"
             }
         },
         {
