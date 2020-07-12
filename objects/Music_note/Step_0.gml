@@ -19,6 +19,10 @@ if (collected)
 	if (floor(image_index) >= image_number - 1)
 	{
 		noteScore.points+=1;
+		// audience cheers every {cheerInterval} points
+		if (noteScore.points mod oAudience.cheerInterval = 0) {
+			oAudience.cheering = 1;
+		}
 		instance_destroy();
 	}
 }

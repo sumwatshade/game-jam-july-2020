@@ -114,7 +114,7 @@
             "Key": "1fb45c6c-1688-4ed7-8440-ff347e3d9904",
             "Value": {
                 "id": "7f237b06-b3d8-4892-b9df-90b26de78e7b",
-                "resourcePath": "objects\\object20\\object20.yy",
+                "resourcePath": "objects\/object20\/object20.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "8b7c7c59-2041-4a65-aeed-30ec9669dab3",
             "Value": {
                 "id": "4ba412d0-be13-45d2-8f65-f25f020bc59a",
-                "resourcePath": "objects\\overhead_lights\\overhead_lights.yy",
+                "resourcePath": "objects\/overhead_lights\/overhead_lights.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -458,7 +458,7 @@
             "Key": "98483b37-aacb-4426-a739-0c182a35e018",
             "Value": {
                 "id": "a6d36f2b-e311-4953-a26e-4762ea5dba1e",
-                "resourcePath": "sprites\\sMusic_note_gone\\sMusic_note_gone.yy",
+                "resourcePath": "sprites\/sMusic_note_gone\/sMusic_note_gone.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -490,7 +490,7 @@
             "Key": "9d886a13-16e0-4426-8c7d-4826d560d460",
             "Value": {
                 "id": "544a45d9-64c9-4e4f-af3c-6515432b7915",
-                "resourcePath": "sprites\\s_overhead_light_left\\s_overhead_light_left.yy",
+                "resourcePath": "sprites\/s_overhead_light_left\/s_overhead_light_left.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -522,7 +522,7 @@
             "Key": "a737a661-6410-4d90-8bd8-b343d64cf552",
             "Value": {
                 "id": "20cb7249-8aa5-48b2-b01c-2ce5b0f5b3e3",
-                "resourcePath": "sprites\\sMusic_note\\sMusic_note.yy",
+                "resourcePath": "sprites\/sMusic_note\/sMusic_note.yy",
                 "resourceType": "GMSprite"
             }
         },
@@ -618,8 +618,16 @@
             "Key": "b862bc53-b62a-423a-a0a0-d2887a849eba",
             "Value": {
                 "id": "d6235a03-ad5e-442a-8f19-9f8a0fbcf83d",
-                "resourcePath": "sprites\\s_overhead_light_right\\s_overhead_light_right.yy",
+                "resourcePath": "sprites\/s_overhead_light_right\/s_overhead_light_right.yy",
                 "resourceType": "GMSprite"
+            }
+        },
+        {
+            "Key": "ca84de36-efd9-43f9-913e-eb6e4afda4a5",
+            "Value": {
+                "id": "20bc6ced-a8ad-4ade-becc-0e5d3d9c7f2b",
+                "resourcePath": "objects\/oAudience\/oAudience.yy",
+                "resourceType": "GMObject"
             }
         },
         {
