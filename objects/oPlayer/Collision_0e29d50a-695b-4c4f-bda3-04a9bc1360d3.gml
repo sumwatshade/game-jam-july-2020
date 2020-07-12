@@ -1,5 +1,7 @@
 /// @description Insert description here
 // You can write your code in this editor
+if(global.pause || global.gameover) { return; }
+
 if(other.can_do_damage && cant_take_damage == 0) 
 {
 	hp -= other.collision_damage;
