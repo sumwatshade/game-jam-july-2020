@@ -291,6 +291,20 @@
             "value": "10",
             "varName": "coyote_time",
             "varType": 0
+        },
+        {
+            "id": "786d0aab-4c84-4082-a55c-d109f0a52ff6",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "death_sound",
+            "varType": 0
         }
     ],
     "solid": false,

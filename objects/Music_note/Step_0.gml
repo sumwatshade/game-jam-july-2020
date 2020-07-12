@@ -7,6 +7,7 @@ if (place_meeting (x, y, oPlayer) && !collected)
 {
 	//audio_play_sound(snd_pickup_coin, 0, 0);
 	//oPlayer.coins++;
+	audio_play_sound(Pickup_Note, 10, false)
 	image_index = 0;
 	collected = true;	
 }
