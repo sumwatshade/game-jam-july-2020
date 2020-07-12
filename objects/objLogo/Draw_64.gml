@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Controls
-ctl_x = floor(window_get_width() *0.65);
+ctl_x = floor(window_get_width() *0.6);
 ctl_pad = 25
 
 ctl_y = optionStart + 100;
@@ -11,7 +11,8 @@ curr_y = ctl_y;
 controls = [
 	"MOVE: ARROW KEYS / WASD", 
 	"SELECT + JUMP: SPACEBAR / ENTER",
-	"GET NOTES, AVOID EVERYTHING ELSE"
+	"GET NOTES, AVOID EVERYTHING ELSE",
+	"COLLECT ENOUGH NOTES FOR A POWERUP!"
 ] 
 
 // draw options

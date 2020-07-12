@@ -14,15 +14,15 @@ if(global.points % super_modulo == 0 && global.points > 0 && global.points != su
 		instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
 	} else if(super_type >= 25 && super_type < 30) {
-		super_message = "Destroy Everything!"
+		super_message = "DESTROY EVERYTHING!"
 		instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
 		instance_destroy(Tomato);
 	} else if(super_type >= 30 && super_type < 35) {
-		oPlayer.hp = min(100, oPlayer.hp + 50)
-		super_message = "Health + 50"
+		oPlayer.hp = min(100, oPlayer.hp + 25)
+		super_message = "EVEN MORE JAZZ JUICE"
 	} else {
-		oPlayer.hp = min(100, oPlayer.hp + 20)
-		super_message = "Health + 20"
+		oPlayer.hp = min(100, oPlayer.hp + 10)
+		super_message = "More Jazz Juice"
 	}
 }
