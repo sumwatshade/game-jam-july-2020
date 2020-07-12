@@ -5,7 +5,7 @@ draw_self();
 
 // draw arrow
 arrowGap = 4;
-draw_sprite(s_menu_selector, image_index, _x + 38, _y[option]+18);
+draw_sprite(s_menu_selector, image_index, _x + 55, _y[option]+18);
 
 // draw text
 draw_set_color(c_white);
