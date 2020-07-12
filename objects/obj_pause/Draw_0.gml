@@ -11,15 +11,14 @@ if (global.pause and !global.gameover) {
 	// Draw text
 	draw_set_color(c_white)
 	draw_set_alpha(1)
-	draw_text(room_width / 2, room_height / 2, "Game Paused");
+	draw_text(room_width / 2, room_height / 2, "GAME PAUSED");
 	
 	// #########################
 	// ### Draw menu options ###
 	// #########################
 	
-	// draw arrow
-	arrowGap = 50;
-	draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
+	// draw selector
+	draw_sprite(s_menu_selector, image_index, _x, _y[option] + 18);
 
 	// draw text
 	draw_set_font(titleFont);

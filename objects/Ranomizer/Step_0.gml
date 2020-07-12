@@ -1,3 +1,5 @@
+if(global.pause || global.gameover) { return; }
+
 if (alarm_0_trigger = 1)
 {
 	alarm[0] = random_range(min_alarm, max_alarm);
