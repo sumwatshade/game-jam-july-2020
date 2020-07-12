@@ -14,7 +14,7 @@ if(!(global.gameover || global.pause)) {
 	{
 		message = "Drumroll Please!"
 		if (Drum_spawner.min_alarm > 30) Drum_spawner.min_alarm -= 10;
-		if (Drum_spawner.max_alarm > 50) Drum_spawner.max_alarm -= 30;
+		if (Drum_spawner.max_alarm > 90) Drum_spawner.max_alarm -= 30;
 	}
 
 	if (chooser = 3) 

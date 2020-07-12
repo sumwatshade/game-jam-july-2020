@@ -1,8 +1,8 @@
 {
-    "id": "8b7c7c59-2041-4a65-aeed-30ec9669dab3",
+    "id": "1fb45c6c-1688-4ed7-8440-ff347e3d9904",
     "modelName": "GMObject",
     "mvc": "1.0",
-    "name": "overhead_lights",
+    "name": "overhead_lights_left",
     "eventList": [
         
     ],
@@ -24,6 +24,6 @@
     "physicsStartAwake": true,
     "properties": null,
     "solid": false,
-    "spriteId": "b862bc53-b62a-423a-a0a0-d2887a849eba",
+    "spriteId": "9d886a13-16e0-4426-8c7d-4826d560d460",
     "visible": true
 }
