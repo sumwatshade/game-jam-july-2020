@@ -114,7 +114,7 @@
             "Key": "1fb45c6c-1688-4ed7-8440-ff347e3d9904",
             "Value": {
                 "id": "7f237b06-b3d8-4892-b9df-90b26de78e7b",
-                "resourcePath": "objects\/object20\/object20.yy",
+                "resourcePath": "objects\\overhead_lights_left\\overhead_lights_left.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -410,7 +410,7 @@
             "Key": "8b7c7c59-2041-4a65-aeed-30ec9669dab3",
             "Value": {
                 "id": "4ba412d0-be13-45d2-8f65-f25f020bc59a",
-                "resourcePath": "objects\/overhead_lights\/overhead_lights.yy",
+                "resourcePath": "objects\\overhead_lights_right\\overhead_lights_right.yy",
                 "resourceType": "GMObject"
             }
         },
@@ -623,14 +623,6 @@
             }
         },
         {
-            "Key": "ca84de36-efd9-43f9-913e-eb6e4afda4a5",
-            "Value": {
-                "id": "20bc6ced-a8ad-4ade-becc-0e5d3d9c7f2b",
-                "resourcePath": "objects\/oAudience\/oAudience.yy",
-                "resourceType": "GMObject"
-            }
-        },
-        {
             "Key": "c6f66096-1e4e-4f39-87a0-68f2a8743906",
             "Value": {
                 "id": "53845241-9296-4fd5-b8cc-c678bcceaac3",
@@ -644,6 +636,14 @@
                 "id": "26eb3c70-5408-4034-b51c-c14ccff0618e",
                 "resourcePath": "sounds\\Hit_sax_3\\Hit_sax_3.yy",
                 "resourceType": "GMSound"
+            }
+        },
+        {
+            "Key": "ca84de36-efd9-43f9-913e-eb6e4afda4a5",
+            "Value": {
+                "id": "20bc6ced-a8ad-4ade-becc-0e5d3d9c7f2b",
+                "resourcePath": "objects\/oAudience\/oAudience.yy",
+                "resourceType": "GMObject"
             }
         },
         {

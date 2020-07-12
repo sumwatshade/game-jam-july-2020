@@ -9,3 +9,5 @@ if (Music.play_pitch < 1.5) Music.play_pitch += 0.02;
 
 alarm_1_trigger = 1
 planned_text_timer = text_timer
+
+crazy_level += 1;

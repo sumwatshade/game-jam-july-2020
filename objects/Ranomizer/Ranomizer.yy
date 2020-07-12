@@ -229,6 +229,20 @@
             "value": "150",
             "varName": "top_buffer2",
             "varType": 0
+        },
+        {
+            "id": "f43f4b1c-b2d9-4383-a971-bec839f3e079",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "crazy_level",
+            "varType": 0
         }
     ],
     "solid": false,
