@@ -10,7 +10,7 @@ curr_y = ctl_y;
 
 controls = [
 	"Move: Arrow Keys / WASD", 
-	"Select/Jump: Spacebar"
+	"Select + Jump: Spacebar / Enter"
 ] 
 
 // draw options

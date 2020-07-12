@@ -1,12 +1,12 @@
 //Player inputs
-key_left = keyboard_check(vk_left) || keyboard_check(ord("A"));				//If left arrow key or A is held
-key_right = keyboard_check(vk_right) || keyboard_check(ord("D"));			//If Right arrow key or D is held
-key_left_pressed = keyboard_check_pressed(vk_left) || keyboard_check_pressed(ord("A"));				//If left arrow key or A is pressed
-key_right_pressed = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));			//If right arrow key or D is pressed
-key_up_pressed = keyboard_check_pressed(vk_up) || keyboard_check_pressed(ord("W"));				//If up arrow key or W is pressed
-key_down_pressed = keyboard_check_pressed(vk_down) || keyboard_check_pressed(ord("S"));			//If down arrow key or S is pressed
-key_jump = keyboard_check_pressed(vk_space);								//If space is pressed
-key_jump_held = keyboard_check(vk_space);									//If space is held
+key_left		  =	keyboard_check(vk_left)			 || keyboard_check(ord("A"));			// If left arrow key or A is held
+key_right		  =	keyboard_check(vk_right)		 || keyboard_check(ord("D"));			// If Right arrow key or D is held
+key_left_pressed  =	keyboard_check_pressed(vk_left)	 || keyboard_check_pressed(ord("A"));	// If left arrow key or A is pressed
+key_right_pressed = keyboard_check_pressed(vk_right) || keyboard_check_pressed(ord("D"));	// If right arrow key or D is pressed
+key_up_pressed	  =	keyboard_check_pressed(vk_up)	 || keyboard_check_pressed(ord("W"));	// If up arrow key or W is pressed
+key_down_pressed  =	keyboard_check_pressed(vk_down)  || keyboard_check_pressed(ord("S"));	// If down arrow key or S is pressed
+key_jump		  =	keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);	// If space or Enter is pressed
+key_jump_held	  =	keyboard_check(vk_space)		 || keyboard_check(vk_enter);			// If space or Enter is held
 
 
 /*
