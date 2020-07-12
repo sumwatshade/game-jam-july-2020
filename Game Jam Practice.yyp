@@ -623,6 +623,14 @@
             }
         },
         {
+            "Key": "c6f66096-1e4e-4f39-87a0-68f2a8743906",
+            "Value": {
+                "id": "53845241-9296-4fd5-b8cc-c678bcceaac3",
+                "resourcePath": "fonts\\subtitleFont\\subtitleFont.yy",
+                "resourceType": "GMFont"
+            }
+        },
+        {
             "Key": "c81b8b3b-30d3-49be-8f66-1827ff4cd3ce",
             "Value": {
                 "id": "26eb3c70-5408-4034-b51c-c14ccff0618e",

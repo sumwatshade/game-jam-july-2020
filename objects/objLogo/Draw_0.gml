@@ -8,6 +8,7 @@ arrowGap = 4;
 draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
 
 // draw text
+draw_set_color(c_white);
 draw_set_font(titleFont);
 draw_set_valign(fa_middle);
 
