@@ -151,4 +151,15 @@ else
 
 if (hsp != 0) image_xscale = sign(hsp);
 
-
+//recoil for collision 
+if (recoil = 1)
+{
+	sprite_index = sPlayer_recoil;
+	vsp = - 30;
+	hsp = -10*sign(dir_looking);
+	recoil = 0;
+}
+	
+	
+	
+	
