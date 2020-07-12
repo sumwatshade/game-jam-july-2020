@@ -13,6 +13,6 @@ _y[0] = optionStart;
 _y[1] = optionStart + optionPad;
 _y[2] = optionStart + optionPad * 2;
 
-txt[0] = "Resume";
-txt[1] = "Restart";
-txt[2] = "Quit";
+txt[0] = "RESUME";
+txt[1] = "RESTART";
+txt[2] = "QUIT";

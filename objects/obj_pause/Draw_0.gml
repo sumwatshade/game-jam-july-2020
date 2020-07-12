@@ -17,9 +17,8 @@ if (global.pause and !global.gameover) {
 	// ### Draw menu options ###
 	// #########################
 	
-	// draw arrow
-	arrowGap = 50;
-	draw_sprite(spArrowDrumsticks, image_index, _x - arrowGap, _y[option]);
+	// draw selector
+	draw_sprite(s_menu_selector, image_index, _x, _y[option] + 18);
 
 	// draw text
 	draw_set_font(titleFont);
