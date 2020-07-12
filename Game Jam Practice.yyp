@@ -471,6 +471,14 @@
             }
         },
         {
+            "Key": "9528ca2b-3578-4f87-a19c-18f838e076f8",
+            "Value": {
+                "id": "2f28dc8b-613f-4c5f-a723-c99ab98aa1d2",
+                "resourcePath": "sprites\\sBasedrum_new\\sBasedrum_new.yy",
+                "resourceType": "GMSprite"
+            }
+        },
+        {
             "Key": "98483b37-aacb-4426-a739-0c182a35e018",
             "Value": {
                 "id": "a6d36f2b-e311-4953-a26e-4762ea5dba1e",
