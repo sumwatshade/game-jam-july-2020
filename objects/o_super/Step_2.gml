@@ -8,14 +8,14 @@ if(global.points % super_modulo == 0 && global.points > 0 && global.points != su
 	
 	if(super_type < 15) {
 		instance_destroy(Tomato);
-		super_message = "Destroy all Tomatoes!"
-	} else if(super_type >= 15 && super_type < 30) {
-		super_message = "Destroy all Drums!"
+		super_message = "Tomatoes Cleared!"
+	} else if(super_type >= 15 && super_type < 30)&&(instance_exists(Drum_left ||Drum_right)) {
+		super_message = "Drums Cleared!"
 		instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
-	} else if(super_type >= 30 && super_type < 35) {
-		super_message = "DESTROY EVERYTHING!"
-		instance_destroy(Drum_left);
+	} else if(super_type >= 30 && super_type < 35)&&(instance_exists(Drum_left ||Drum_right)){
+		super_message = "JAZZZ!!!"
+	    instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
 		instance_destroy(Tomato);
 	} else if(super_type >= 35 && super_type < 40) {
