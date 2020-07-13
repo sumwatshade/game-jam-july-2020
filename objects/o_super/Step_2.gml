@@ -13,7 +13,7 @@ if(global.points % super_modulo == 0 && global.points > 0 && global.points != su
 		super_message = "Drums Cleared!"
 		instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
-	} else if(super_type >= 30 && super_type < 35)&&(instance_exists(Drum_left ||Drum_right)){
+	} else if(super_type >= 30 && super_type < 35)&&(instance_exists(Drum_left ||Drum_right||Tomato)){
 		super_message = "JAZZZ!!!"
 	    instance_destroy(Drum_left);
 		instance_destroy(Drum_right);
