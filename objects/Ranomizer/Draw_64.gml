@@ -28,12 +28,15 @@ else
 	alarm_1_trigger = 0
 }
 
-
-	//draw_set_halign(fa_center);
-	//draw_set_valign(fa_center);
-	//draw_set_font(titleFont);
-	//draw_text(room_width/2, top_buffer, crazy_level);	
-	//draw_set_font(scoreFont);
+if (oPlayer.testing = 1)
+{
+	draw_set_halign(fa_center);
+	draw_set_valign(fa_center);
+	draw_set_font(titleFont);
+	draw_text(room_width-200, top_buffer, crazy_level);	
+	draw_text(room_width-200, top_buffer/2, "Crazy Level");
+	draw_set_font(scoreFont);
+}
 
 
 //draw_text(100, top_buffer, Tomato_spawner.min_alarm);

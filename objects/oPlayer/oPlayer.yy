@@ -305,6 +305,20 @@
             "value": "0",
             "varName": "death_sound",
             "varType": 0
+        },
+        {
+            "id": "593e4e66-e831-46b5-a1fd-8d4a28f3a004",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "testing",
+            "varType": 0
         }
     ],
     "solid": false,

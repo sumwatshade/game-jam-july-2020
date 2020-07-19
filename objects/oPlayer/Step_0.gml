@@ -7,13 +7,22 @@ key_up_pressed	  =	keyboard_check_pressed(vk_up)	 || keyboard_check_pressed(ord(
 key_down_pressed  =	keyboard_check_pressed(vk_down)  || keyboard_check_pressed(ord("S"));	// If down arrow key or S is pressed
 key_jump		  =	keyboard_check_pressed(vk_space) || keyboard_check_pressed(vk_enter);	// If space or Enter is pressed
 key_jump_held	  =	keyboard_check(vk_space)		 || keyboard_check(vk_enter);			// If space or Enter is held
-
+key_cheat_pressed = keyboard_check_pressed(ord("P"));										//If "P" is pressed
+key_test		  = keyboard_check(ord("O"));
 
 /*
  * If game paused, skip step
  */
 if(global.pause || global.gameover) return;
 
+//Cheat and test modes
+if key_cheat_pressed			//If cheat key is pressed
+{
+	hp = hp_max;
+}
+
+if (key_test) testing = 1		//If test key is pressed
+else testing = 0
 
 //Horizontal Movement
 var move = key_right-key_left;					//Just right returns 1, just left returns -1, both or none returns 0. In GMS positive is right and negative is left
