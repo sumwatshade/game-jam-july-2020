@@ -9,6 +9,7 @@ image_speed = 1
 
 if (launch == 1)
 {
-	direction = -point_direction(x,y,oPlayer.x, oPlayer.y)
-	speed = 40
+	direction = point_direction(x,y,oPlayer.x, oPlayer.y)
+	speed = -20;
+	launch = 0;
 }

@@ -20,3 +20,10 @@ if (place_meeting(x,y+vsp,oWall))
 	}
 }
 y = y + vsp;
+
+if (launch == 1) && (image_index == 0)
+{
+	direction = point_direction(x,y,oPlayer.x, oPlayer.y)
+	speed = -20;
+	launch = 0;
+}
