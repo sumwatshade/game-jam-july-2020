@@ -13,3 +13,6 @@ healthbar_y = 48;
 cant_take_damage = 0;
 
 recoil = 0;
+
+testing = 0;
+cancel_high_score = 0;

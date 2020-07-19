@@ -5,7 +5,9 @@ if(hp <= 0) {
 	audio_play_sound(jazz_flair_fail, 1000, false);
 	global.gameover = 1
 	
-	highscore_add("Player", global.points)
+	if(cancel_high_score == 0) {
+		highscore_add("Player", global.points)
+	}
 	instance_destroy(oSpotlight)
 	instance_destroy()
 }
