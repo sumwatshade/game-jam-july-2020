@@ -55,6 +55,20 @@
             "value": "7",
             "varName": "hsp",
             "varType": 0
+        },
+        {
+            "id": "fa1deb48-f1a9-4037-ab74-cc49d4b1260f",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "0",
+            "varName": "launch",
+            "varType": 0
         }
     ],
     "solid": false,
