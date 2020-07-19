@@ -5,14 +5,15 @@
 ctl_x = floor(window_get_width() *0.6);
 ctl_pad = 25
 
-ctl_y = optionStart + 100;
+ctl_y = optionStart + 120;
 curr_y = ctl_y;
 
 controls = [
 	"MOVE: ARROW KEYS / WASD", 
 	"SELECT + JUMP: SPACEBAR / ENTER",
 	"GET NOTES, AVOID EVERYTHING ELSE",
-	"COLLECT ENOUGH NOTES FOR A POWERUP!"
+	"COLLECT ENOUGH NOTES FOR A POWERUP!",
+	"SOUND ON!!!"
 ] 
 
 // draw options

@@ -6,7 +6,7 @@ maxOption = 1;
 // menu
 _x = floor(window_get_width() / 4*3);
 
-optionStart = floor(window_get_height() * 0.75);
+optionStart = floor(window_get_height() * 0.66);
 optionPad = 50;
 _y[0] = optionStart;
 _y[1] = optionStart + optionPad;
