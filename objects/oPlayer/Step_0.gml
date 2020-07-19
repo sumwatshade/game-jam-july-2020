@@ -19,10 +19,14 @@ if(global.pause || global.gameover) return;
 if key_cheat_pressed			//If cheat key is pressed
 {
 	hp = hp_max;
+	cancel_high_score = 1;
 }
 
-if (key_test) testing = 1		//If test key is pressed
-else testing = 0
+if (key_test) {
+	testing = 1		//If test key is pressed	
+} else { 
+	testing = 0
+}
 
 //Horizontal Movement
 var move = key_right-key_left;					//Just right returns 1, just left returns -1, both or none returns 0. In GMS positive is right and negative is left

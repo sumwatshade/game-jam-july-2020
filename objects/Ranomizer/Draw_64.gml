@@ -28,7 +28,7 @@ else
 	alarm_1_trigger = 0
 }
 
-if (oPlayer.testing = 1)
+if (oPlayer.testing == 1)
 {
 	draw_set_halign(fa_center);
 	draw_set_valign(fa_center);
