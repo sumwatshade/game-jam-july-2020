@@ -23,9 +23,21 @@ oAudience.frequency = audience_frequency_vals[normalized_crazy_level];
 oAudience.amplitude = audience_amplitude_vals[normalized_crazy_level];
 
 
-if(crazy_level > 10) {
-	Tomato.collision_damage = 15;
-	Drum_left.collision_damage = 20;
-	Drum_right.collision_damage = 20;
+if(crazy_level > 10) //&& (instance_exists(Drum_left ||Drum_right))
+{   
+	if(instance_exists(Tomato))
+	{
+		Tomato.collision_damage = 15;
+	}
+	
+	if(instance_exists(Drum_left))
+	{
+		Drum_left.collision_damage = 20;
+	}
+	
+	if(instance_exists(Drum_right))
+	{
+		Drum_right.collision_damage = 20;
+	}
 	//Tomato.sprite_index = sBasedrum_new_fall
 }
