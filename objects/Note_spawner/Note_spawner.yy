@@ -139,6 +139,20 @@
             "value": "2",
             "varName": "max_notes",
             "varType": 0
+        },
+        {
+            "id": "fccec53d-c13c-43c2-8b33-4cf7c51e2369",
+            "modelName": "GMObjectProperty",
+            "mvc": "1.0",
+            "listItems": null,
+            "multiselect": false,
+            "rangeEnabled": false,
+            "rangeMax": 10,
+            "rangeMin": 0,
+            "resourceFilter": 1023,
+            "value": "1",
+            "varName": "note_pitch",
+            "varType": 0
         }
     ],
     "solid": false,

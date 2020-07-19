@@ -1,10 +1,12 @@
-/// @description Do super
+	/// @description Do super
 // You can write your code in this editor
 
 if(global.points % super_modulo == 0 && global.points > 0 && global.points != super_point_val) {
 	super_point_val = global.points;
 	super_type = round(random(100));
 	super_timer = 75;
+	
+	Note_spawner.note_pitch = 1;		//Reset the pitch of the note collection sound
 	
 	if(super_type < 15) {
 		instance_destroy(Tomato);
